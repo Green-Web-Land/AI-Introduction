@@ -4,9 +4,9 @@ Learn to use AI well—and remain able to think, choose and act for yourself.
 
 ## Available courses
 
-- [Adult beginners](courses/adults/CURRICULUM.md)
-- [Kids, ages 9–12](courses/kids/CURRICULUM.md)
-- [Teenagers, ages 13–17](courses/teenagers/CURRICULUM.md)
+- [Adult beginners](courses/adults/README.md)
+- [Kids, ages 9–12](courses/kids/README.md)
+- [Teenagers, ages 13–17](courses/teenagers/README.md)
 
 Each course includes its own lessons, guidance, sources and licence. Course folders are independently usable. These are educational materials, not WebAI software or a professional qualification.
 
@@ -25,7 +25,17 @@ Reading these materials does not require an AI account. An edition's age range d
 
 ## Planned courses
 
-Young Children; High School; College/University; Work; Home; Retirement; Family Connection and Relationships. Availability here means published content, not proof of measured learning effectiveness.
+Select an item to read its introduction. Full courses remain planned.
+
+- [Young Children](courses/young-children/README.md) — planned
+- [How to Use AI at High School](courses/high-school/README.md) — planned
+- [How to Use AI in College/University](courses/college-university/README.md) — planned
+- [How to Use AI at Work](courses/work/README.md) — planned
+- [How to Use AI at Home](courses/home/README.md) — planned
+- [How to Use AI at Retirement](courses/retirement/README.md) — planned
+- [How to Use AI for Family Connection and Relationships](courses/family/README.md) — planned
+
+Availability here means published content, not proof of measured learning effectiveness.
 
 ## Reuse terms — all educational content — free
 
