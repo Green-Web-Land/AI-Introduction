@@ -2,13 +2,29 @@
 
 Learn to use AI well—and remain able to think, choose and act for yourself.
 
+Explore AI through explanations, fictional examples, exercises and answer guidance. Choose a course for your stage of learning or the situation you want to practise. No AI account or WebAI installation is required to complete the supplied activities.
+
 ## Available courses
 
-- [Adult beginners](courses/adults/README.md)
-- [Kids, ages 9–12](courses/kids/README.md)
-- [Teenagers, ages 13–17](courses/teenagers/README.md)
+All ten courses below are published, with lessons, curriculum, glossary, source notes and developer guidance. Availability means published content, not proof of measured learning effectiveness or a professional qualification.
 
-Each course includes its own lessons, guidance, sources and licence. Course folders are independently usable. These are educational materials, not WebAI software or a professional qualification.
+### Courses by age
+
+- [Young Children, approximately ages 6–8](courses/young-children/README.md) — adult-led stories, pictures and paper activities about people, tools, questions and choices.
+- [Kids, ages 9–12](courses/kids/README.md) — practise asking, checking and creating with a parent, teacher or another trusted adult.
+- [Teenagers, ages 13–17](courses/teenagers/README.md) — general AI literacy for media, creativity, privacy and everyday choices.
+- [Adult Beginners, ages 18+](courses/adults/README.md) — foundations for setting goals, giving instructions, checking answers and retaining judgment.
+
+### Courses for study and everyday life
+
+- [How to Use AI at High School](courses/high-school/README.md) — check assignment rules, ask for limited help, verify answers and explain your own work. Intended for high-school learners, approximately ages 13–18, with educator guidance.
+- [How to Use AI in College/University](courses/college-university/README.md) — practise research preparation, source checking, synthesis and accountable academic work. Primarily for adults; younger students should use appropriate institutional guidance and support.
+- [How to Use AI at Work](courses/work/README.md) — adult beginners practise useful assistance within workplace responsibilities, permissions and review processes.
+- [How to Use AI at Home](courses/home/README.md) — adult beginners explore everyday planning, learning and creative projects using fictional household examples.
+- [How to Use AI at Retirement](courses/retirement/README.md) — adult beginners explore interests, learning and useful routines at their chosen pace. Retirement is a life context, not an ability rating.
+- [How to Use AI for Family Connection and Relationships](courses/family/README.md) — adults practise respectful wording, privacy, specific agreement and boundaries. General education, not therapy or a requirement to reconcile or make contact.
+
+Each course folder includes its own lessons and supporting material for reuse. These are educational materials, not WebAI software.
 
 ## Choosing material by age
 
@@ -17,25 +33,13 @@ Each course includes its own lessons, guidance, sources and licence. Course fold
 | Adult Beginners | Adults, ages 18+ | Written for adult contexts and independent judgment. It is not designed for independent study by readers under 18; a parent, guardian or educator can select and explain suitable sections. |
 | Teenagers | Ages 13–17 | Start with this edition for teenage readers. Use its facilitator guidance and seek help from a trusted adult when needed. |
 | Kids | Ages 9–12 | Read with a parent, guardian, educator or another trusted adult, using the parent/teacher guide. |
-| Young Children | Planned; approximately ages 6–8 | An adult-led edition is planned. The existing Kids or Adult Beginners course is not a substitute for an edition designed for younger children. |
+| Young Children | Approximately ages 6–8 | Use the published adult-led course with a parent, carer, educator or another trusted adult. Read its parent/educator guide first. Adult notes and linked source pages are for adults, not required child activities. |
 
 Choose by the reader's understanding, needs and the topic as well as age. A parent or educator should preview material before using sections outside their intended age group. These ranges are editorial guidance, not tested suitability ratings or a guarantee that every section suits every reader. They do not restrict the reuse licence.
 
+The life-context courses state their audiences above and in their own introductions. Adult courses are not substitutes for editions designed for children.
+
 Reading these materials does not require an AI account. An edition's age range does not establish eligibility to use an AI service: check the service's current age and permission rules separately.
-
-## Planned courses
-
-Select an item to read its introduction. Full courses remain planned.
-
-- [Young Children](courses/young-children/README.md) — planned
-- [How to Use AI at High School](courses/high-school/README.md) — planned
-- [How to Use AI in College/University](courses/college-university/README.md) — planned
-- [How to Use AI at Work](courses/work/README.md) — planned
-- [How to Use AI at Home](courses/home/README.md) — planned
-- [How to Use AI at Retirement](courses/retirement/README.md) — planned
-- [How to Use AI for Family Connection and Relationships](courses/family/README.md) — planned
-
-Availability here means published content, not proof of measured learning effectiveness.
 
 ## Reuse terms — all educational content — free
 
