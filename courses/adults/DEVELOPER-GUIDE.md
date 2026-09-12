@@ -26,7 +26,7 @@ The steps below govern the project's own development and publication workflow. T
 
 ## Release boundary
 
-Owner approval of the exact candidate/action/destination comes before the designated legal decision. Pending or declined review does not authorise our own publication. This workflow does not restrict other recipients' CC BY 4.0 rights. Product deployment has its own applicable acceptance requirements. Do not silently synchronise draft edits into production.
+The designated Audit/legal reviewer first approves the exact candidate, public action and destination. Massoud then gives final approval; unchanged publication and verification follow without another internal approval. Pending or declined review does not authorise our own publication. This workflow does not restrict other recipients' CC BY 4.0 rights. Product deployment has its own applicable acceptance requirements. Do not silently synchronise draft edits into production.
 
 ## Report a correction
 

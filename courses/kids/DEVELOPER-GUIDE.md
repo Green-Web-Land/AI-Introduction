@@ -4,7 +4,7 @@
 
 This is standalone educational Markdown. No WebAI installation, API call or user account is required. Read lessons in curriculum order; identifiers and filenames are stable references.
 
-For integration, pin a reviewed commit and copy the needed files with their attribution and licence notices. Preserve relative links, answer guidance, fictional-example labels and adult guidance. Avoid depending on a changing review branch. The publisher's own public promotion requires owner approval followed by the designated internal legal decision; this workflow adds no restrictions to CC BY recipients.
+For integration, pin a reviewed commit and copy the needed files with their attribution and licence notices. Preserve relative links, answer guidance, fictional-example labels and adult guidance. Avoid depending on a changing review branch. For the publisher's own public promotion, the designated Audit/legal reviewer first approves the exact candidate, public action and destination. Massoud then gives final approval; unchanged publication and verification follow without another internal approval. This workflow adds no restrictions to CC BY recipients.
 
 Keep headings meaningful, text resizable and tables readable in a linear view. Permit spoken or written responses without collecting them. Do not add mandatory sign-in, chat, analytics, answer uploads, child profiles or external AI calls as if they were covered by this content review. Such features introduce separate privacy, safety, accessibility and product requirements.
 

@@ -8,4 +8,4 @@ Do not depend on a changing review branch. A shared concept copied from another 
 
 Test rendering, keyboard navigation, text resizing and accessible reading order in the actual application. Those checks are separate from document link checks. Adding accounts, chat, analytics, profiles or uploads needs its own privacy, safety and product assessment; the static-content review does not cover those features.
 
-The publisher reviews a complete course, obtains owner approval and the designated internal legal disposition before public promotion. This internal process adds no restrictions to recipients' CC BY 4.0 rights.
+The publisher prepares and reviews a complete course. The designated Audit/legal reviewer first approves the exact candidate, public action and destination. Massoud then gives final approval; unchanged publication and verification follow without another internal approval. This internal process adds no restrictions to recipients' CC BY 4.0 rights.
