@@ -1,31 +1,50 @@
 # How to Use AI at Home
 
-[AI Introduction home](../../README.md)
+**Learn to use AI well—and remain able to think, choose and act for yourself.**
 
-**Course introduction · full course planned.**
+A complete course for adult beginners exploring optional help with everyday planning, learning and creative projects. No account, paid tool, installation or real household information is required. Use paper or a local editor; every required activity is supplied and works offline.
 
-Optional help with everyday planning, learning and creative projects.
+Households differ. The examples do not assume a particular family structure, income, ability or access to devices. Choose, adapt, skip or decline activities as useful.
 
-## Planned coverage
+## Start learning
 
-Use fictional or minimal inputs; compare ordinary tools; review practical suggestions.
+1. [Choose help that fits](lessons/01-choice.md)
+2. [Keep household information private](lessons/02-privacy.md)
+3. [Describe useful constraints](lessons/03-brief.md)
+4. [Check an activity plan](lessons/04-plan.md)
+5. [Revise time without hiding tradeoffs](lessons/05-schedule.md)
+6. [Check a list and its arithmetic](lessons/06-materials.md)
+7. [Keep your own creative choices](lessons/07-create.md)
+8. [Check practical claims before acting](lessons/08-claims.md)
+9. [Keep actions under your control](lessons/09-actions.md)
+10. [Build a useful routine](lessons/10-future.md)
 
-## Example of a planned activity
+Each lesson has an objective, explanation, worked example, practice, reasoned answers and transfer task. Try the practice before reading the answer. Suggested time is 20–30 minutes per lesson, flexible and untested.
 
-Revise an invented household activity plan to fit a time and materials limit.
+![A paper activity plan totals sixty minutes, including a break and putting materials away.](images/plan.png)
 
-This is an outline of a future activity, not a completed lesson or a tested learning outcome.
+Text equivalent: setup 5 minutes, drawing 20, storytelling 20, break 10, putting away 5. This is an invented plan, not a prescribed routine.
 
-## Audience and boundaries
+## Guides
 
-Sensitive household information is not needed for practice. High-stakes decisions require appropriate evidence and qualified help.
+- [Curriculum](CURRICULUM.md)
+- [Supporter guide](SUPPORTER-GUIDE.md)
+- [Glossary](GLOSSARY.md)
+- [Developer guide](DEVELOPER-GUIDE.md)
+- [Sources and limits](SOURCES.md)
+- [Picture provenance and text equivalents](ASSET-SOURCES.md)
+- [Free reuse terms](LICENSE.md)
 
-Core activities will use fictional information and offer an offline route. No WebAI installation or AI account will be required. Full lessons will state their audience, practical requirements, sources and guidance for supporters.
+## Boundaries
 
-## Availability and reuse
+All households, prices, product cards and assistant suggestions are invented. No purchases, bookings, messages, device commands or hazardous experiments are needed. A course exercise grants no permission to act in anyone's account or use another person's private information.
 
-Only this introduction is prepared. Curriculum, lessons, exercises and supporting guidance remain planned and will be reviewed separately.
+Never fabricate practical evidence, impersonate others or treat an unchecked suggestion as authority for a consequential action. Use appropriate evidence and qualified help for specialised concerns. This is not medical, legal, financial, repair or emergency-response advice.
 
-See the series [reuse terms](../../README.md#reuse-terms--all-educational-content--free), including attribution and third-party exceptions. Complete course copies will include their licence notices.
+No learner trial, professional qualification, formal accessibility certification or guarantee of savings, wellbeing or independence is claimed. AI is optional; ordinary tools and no-tool methods remain valid choices. Host practices are separate from these static files.
 
-[Back to all courses](../../README.md)
+## Reuse terms — all educational content — free
+
+Original material is offered under [CC BY 4.0](LICENSE.md), to the extent rights are held. Free sharing, adaptation and commercial reuse are permitted with required credit and notices. Third-party references retain their own terms.
+
+Suggested credit: “AI Introduction — Home — Massoud Fattahi, Canada. CC BY 4.0.” Include source and licence links and identify changes.
