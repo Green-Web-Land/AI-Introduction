@@ -2,7 +2,7 @@
 
 Learn to use AI with clear goals, useful instructions and your own judgment.
 
-**Draft for private review.** The first edition contains nine drafted lessons with exercises and answer guidance. It is ready for content review, not legally cleared for public release.
+**Published first edition.** This course contains nine lessons with exercises and answer guidance. Publication does not establish measured learning effectiveness or professional certification.
 
 This course is for adult beginners. You can read the explanations and complete the paper exercises without installing software, creating an account or paying for an AI service. Examples are fictional and do not require personal information.
 
@@ -22,7 +22,7 @@ Developers should inspect private drafts as drafts. Our own public integration r
 
 ## Review and reuse
 
-Original educational content is licensed by Massoud Fattahi under [CC BY 4.0](LICENSE.md), allowing commercial reuse and adaptations with attribution. External sources retain their own terms. Our own public publication requires final owner approval followed by the designated legal reviewer's approval of the exact candidate; that internal process adds no restriction to recipients' licence rights.
+Original educational content is licensed by Massoud Fattahi under [CC BY 4.0](LICENSE.md), allowing commercial reuse and adaptations with attribution. External sources retain their own terms. Our own publication process requires the designated Audit/legal review of the exact candidate before the owner's final approval; that internal process adds no restriction to recipients' licence rights.
 
 ## Supporting pages
 

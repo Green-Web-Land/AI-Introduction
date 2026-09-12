@@ -6,7 +6,7 @@ A complete first-edition course designed for ages 13–17. This is a design rang
 
 Start with the [curriculum](CURRICULUM.md). All nine lessons include examples, practice and suggested reasoning; the final lesson brings the skills together. Use the [glossary](GLOSSARY.md) when needed.
 
-Learn about everyday choices, media, privacy, creativity, relationships, tools and future possibilities. This is general teenage AI literacy; the separate planned High School course addresses school-specific study practices.
+Learn about everyday choices, media, privacy, creativity, relationships, tools and future possibilities. This is general teenage AI literacy; the separate [High School course](../high-school/README.md) addresses school-specific study practices.
 
 The course works offline with invented information. No paid service, account, personal-data submission or AI conversation is required. Optional live demonstrations must follow current service rules and appropriate adult or institutional requirements; being thirteen does not by itself establish permission for every service.
 
