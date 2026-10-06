@@ -1,0 +1,1736 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Eight lessons to understand AI, explore work and society, strengthen useful skills and choose your next step.">
+<title>Your choices matter — Living and Working with AI</title>
+<style>:root{color-scheme:light;--paper:#f5f3ea;--ink:#173b32;--green:#174c3c;--muted:#52635a;--line:#cdd6cc;--gold:#e2ba68;--white:#fffefa;--soft:#e8eee4}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:24px}
+body{margin:0;background:var(--paper);color:var(--ink);font:18px/1.7 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;overflow-wrap:anywhere}
+a{color:#175d48;text-underline-offset:4px;overflow-wrap:anywhere}
+a:hover{text-decoration-thickness:2px}
+:focus-visible{outline:3px solid #986522;outline-offset:5px}
+button,summary{font:inherit}
+button{cursor:pointer}
+.skip{position:absolute;left:20px;top:-100px;background:var(--white);padding:12px;z-index:5}
+.skip:focus{top:10px}
+.masthead{max-width:1200px;margin:auto;padding:26px 38px;display:flex;justify-content:space-between;gap:16px;align-items:center;font-size:13px;letter-spacing:.12em;text-transform:uppercase}
+.brand{font-weight:750;color:var(--green)}
+.edition{color:var(--muted);letter-spacing:.04em}
+.hero{max-width:1124px;margin:0 auto 52px;padding:60px;border-radius:8px;background:var(--green);color:var(--white);display:grid;grid-template-columns:1.35fr 1fr;gap:64px;align-items:center}
+.eyebrow{font-size:13px;text-transform:uppercase;letter-spacing:.13em;margin:0 0 22px;color:#d3e5d3}
+h1{font:400 clamp(46px,6.6vw,86px)/1.05 Georgia,"Times New Roman",serif;letter-spacing:-.045em;margin:0 0 28px}
+.hero .lead{font-size:20px;line-height:1.6;max-width:35ch;color:#e5efe2}
+.hero .sub{font-size:14px;margin-top:24px;color:#d3e5d3}
+.cta{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:48px;padding:11px 20px;background:var(--gold);color:#263823;border:0;border-radius:4px;text-decoration:none;font-size:16px;font-weight:700}
+.hero-actions{display:flex;gap:14px;flex-wrap:wrap;align-items:center;margin-top:28px}
+.print-button{background:transparent;border:1px solid #9ab5a5;color:var(--white);padding:10px 18px;min-height:48px;border-radius:4px;font-size:15px}
+.cycle{list-style:none;margin:0;padding:0}
+.cycle li{padding:22px 0;border-top:1px solid #698777;display:grid;grid-template-columns:36px 1fr;gap:16px}
+.cycle .number{color:var(--gold);font-size:13px;padding-top:9px}
+.cycle strong{font:400 31px/1.2 Georgia,serif;display:block;margin-bottom:7px}
+.cycle p{font-size:16px;line-height:1.6;color:#d3e5d3;margin:0}
+.revisit{font-size:13px;color:#d3e5d3;padding-top:16px;border-top:1px solid #698777}
+.journey{max-width:1050px;margin:0 auto 60px;padding:0 22px}
+.intro{max-width:65ch;font-size:19px}
+.journey h2{font:400 32px/1.3 Georgia,serif;margin:0 0 14px}
+.lesson-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin:28px 0}
+.lesson-card{display:flex;flex-direction:column;align-items:flex-start;background:var(--white);border:1px solid var(--line);border-radius:5px;padding:26px;text-decoration:none;color:var(--ink)}
+.lesson-card:hover{border-color:var(--green)}
+.lesson-card .number{font-size:13px;letter-spacing:.1em;color:var(--muted)}
+.lesson-card h3{font:400 25px/1.3 Georgia,serif;margin:18px 0 14px}
+.lesson-card p{font-size:15px;line-height:1.6;margin:0 0 20px}
+.lesson-card .read{font-size:14px;color:#175d48;font-weight:650;margin-top:auto;text-decoration:underline;text-underline-offset:4px}
+.reading-layout{display:grid;grid-template-columns:190px minmax(0,1fr);gap:38px;max-width:1124px;margin:0 auto;padding:0 24px}
+.rail{align-self:start;position:sticky;top:28px;font-size:14px;line-height:1.5;max-height:calc(100vh - 56px);overflow-y:auto;padding-right:6px}
+.rail p{font-weight:700;margin:0 0 12px}
+.rail a{display:block;padding:10px 0;border-bottom:1px solid var(--line);text-decoration:none}
+.rail a:hover{text-decoration:underline}
+.content{min-width:0}
+.reading-section{background:var(--white);padding:44px 48px;margin-bottom:32px;border:1px solid var(--line);border-radius:5px}
+.reading-section h2{font:400 38px/1.15 Georgia,serif;letter-spacing:-.025em;margin:0 0 22px}
+.reading-section h3{font-size:23px;line-height:1.35;margin:36px 0 15px}
+.reading-section h4{font-size:19px;line-height:1.4;margin:24px 0 12px}
+.reading-section p{margin:0 0 18px}
+.reading-section li{margin:8px 0}
+.reading-section ul,.reading-section ol{padding-left:24px}
+.reading-section blockquote{margin:24px 0;padding:18px 24px;background:var(--soft);border-left:4px solid #6d8c71}
+.reading-section blockquote p:last-child{margin-bottom:0}
+.reading-section>p:first-of-type{color:var(--green)}
+.reading-section>p:nth-of-type(2){font-size:14px;color:var(--muted)}
+table{border-collapse:collapse;width:100%;font-size:16px;line-height:1.55;margin:24px 0;table-layout:fixed}
+th,td{text-align:left;vertical-align:top;padding:12px 10px;border-bottom:1px solid var(--line);overflow-wrap:anywhere}
+th{background:var(--soft);font-weight:650}
+td:empty{height:52px}
+.answer{background:#edf2e9;border:1px solid #cad8c6;border-radius:4px;margin:22px 0}
+.answer summary{padding:14px 18px;cursor:pointer;font-size:16px;font-weight:650;min-height:48px}
+.answer .answer-body{padding:6px 18px 16px}
+.answer-body>:last-child{margin-bottom:0}
+.step-title{border-top:1px solid var(--line);padding-top:24px;color:var(--green)}
+.section-tag{font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-bottom:14px}
+.footer{max-width:1050px;margin:36px auto;padding:24px;font-size:14px;color:var(--muted);border-top:1px solid var(--line)}
+.footer strong{color:var(--green)}
+.endmark{font:400 30px/1.3 Georgia,serif;color:var(--green);margin-top:24px}
+.print-note{display:none}
+.course-path{margin:26px 0;padding:22px;background:var(--soft);border-left:4px solid var(--green)}
+@media(max-width:760px){.rail{max-height:none;overflow:visible}}
+@media(max-width:1000px){.hero{margin:0 22px 40px;padding:40px;gap:32px}.reading-layout{grid-template-columns:150px minmax(0,1fr);gap:22px}.reading-section{padding:30px}.hero .lead{font-size:18px}}
+@media(max-width:760px){.hero{grid-template-columns:1fr;gap:28px}.cycle{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.cycle li{grid-template-columns:1fr;gap:5px}.cycle strong{font-size:25px}.cycle p{font-size:15px}.cycle .number{padding-top:0}.reading-layout{display:block}.rail{position:static;margin-bottom:24px;display:flex;gap:8px 16px;flex-wrap:wrap}.rail p{flex-basis:100%;margin-bottom:0}.rail a{padding:10px 0;min-height:44px}.lesson-cards{gap:12px}.lesson-card{padding:20px}.lesson-card h3{font-size:23px}}
+@media(max-width:600px){body{font-size:17px}.masthead{padding:20px;align-items:flex-start;flex-direction:column;gap:5px}.hero{margin:0 12px 34px;padding:30px 24px}.hero .lead{font-size:18px}.hero h1{font-size:54px}.cycle{display:block}.cycle li{grid-template-columns:30px 1fr;gap:14px;padding:17px 0}.cycle strong{font-size:27px}.hero-actions{gap:12px}.journey{padding:0 24px;margin-bottom:32px}.lesson-cards{grid-template-columns:1fr}.lesson-card{padding:24px}.lesson-card h3{margin:10px 0}.reading-layout{padding:0 12px}.reading-section{padding:28px 22px;margin-bottom:20px}.reading-section h2{font-size:33px}.reading-section h3{font-size:22px}.reading-section blockquote{padding:16px}.reading-section table{display:block}.reading-section thead{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}.reading-section tbody{display:block}.reading-section tr{display:block;border:1px solid var(--line);margin:12px 0;padding:8px 12px;border-radius:4px}.reading-section td{display:block;padding:10px 0;border:0}.reading-section td:before{content:attr(data-label);display:block;font-size:14px;font-weight:700;color:var(--muted);margin-bottom:4px}.footer{margin:20px 12px;padding:18px 12px}.answer summary{padding:15px}.answer .answer-body{padding:0 15px 15px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+@media print{
+ @page{size:A4;margin:17mm 17mm 20mm}
+ html{scroll-behavior:auto}
+ body{background:white;color:#172e25;font-size:10.5pt;line-height:1.5}
+ .skip,.rail,.hero-actions,.lesson-cards,.section-tag{display:none}
+ .masthead{padding:0 0 6mm;font-size:9pt}
+ .hero{display:block;margin:0;padding:8mm;background:#eef2e9;color:#173b32;border:1px solid #cdd6cc;break-after:page}
+ .hero h1{font-size:45pt;margin:0 0 6mm}
+ .hero .eyebrow,.hero .lead,.hero .sub,.cycle p,.revisit{color:#314e40}
+ .hero .lead{font-size:12pt;max-width:40ch;margin:0}
+ .hero .sub{font-size:9pt;margin-top:4mm}
+ .cycle{display:block;margin-top:5mm}
+ .cycle li{padding:2.5mm 0;grid-template-columns:8mm 1fr;break-inside:avoid}
+ .cycle strong{font-size:16pt}.cycle p{font-size:10pt}.cycle .number{color:#52635a}
+ .revisit{font-size:9pt;padding-top:3mm;margin-bottom:0}
+ .journey{display:none}
+ .journey h2{font-size:22pt}
+ .intro{font-size:11pt}
+ .reading-layout{display:block;padding:0;margin:0}
+ .reading-section{background:transparent;border:0;padding:0;margin:0;break-before:page}
+ .reading-section h2{font-size:28pt}
+ .reading-section h3{font-size:15pt;margin:4mm 0 2mm}
+ .reading-section h4{font-size:12pt;margin:4mm 0 2mm}
+ .reading-section p{margin:0 0 2.5mm}
+ .reading-section li{margin:2mm 0}
+ .reading-section blockquote{margin:4mm 0;padding:4mm 5mm}
+ .step-title{padding-top:3mm}
+ #workbook h3:not(:first-of-type){break-before:page}
+ .reading-section>p:nth-of-type(2){font-size:9pt}
+ h2,h3,h4{break-after:avoid}
+ p{orphans:3;widows:3}
+ table{display:table!important;font-size:9pt;table-layout:fixed;margin:4mm 0}
+ thead{display:table-header-group!important;position:static!important;clip-path:none!important;width:auto!important;height:auto!important;overflow:visible!important}
+ tbody{display:table-row-group!important}
+ tr{display:table-row!important;break-inside:avoid}
+ td,th{display:table-cell!important;padding:3mm 2mm}
+ td:before{display:none!important}
+ .answer{break-inside:avoid;background:#edf2e9;margin:4mm 0}
+ .answer .answer-body{display:block!important}
+ details:not([open])>.answer-body{display:block!important}
+ .answer summary{font-size:10.5pt;list-style:none;padding:3mm 4mm}
+ .answer summary:before{content:"Answer guidance — "}
+ a{color:inherit;text-decoration:underline}
+ .print-note{display:block;font-size:9pt}
+ .footer{padding:6mm 0;margin:8mm 0 0;font-size:9pt}
+}
+</style></head><body>
+<a class="skip" href="#lesson-1">Skip to the first lesson</a>
+<header class="masthead"><span class="brand">Green Web Land · Learning</span><span class="edition">Full course · Edition 0.2</span></header>
+<main>
+<section class="hero" id="overview" aria-labelledby="welcome">
+ <div><p class="eyebrow">Living and Working with AI</p>
+ <h1 id="welcome">Your choices<br>matter.</h1>
+ <p class="lead">Understand a changing world.<br>Build useful skills.<br>Choose your next step.</p>
+ <div class="hero-actions"><a class="cta" href="#lesson-1">Start learning <span aria-hidden="true">→</span></a><button class="print-button" type="button" id="print">Print the lessons</button></div>
+ <p class="sub">Eight lessons · Adult beginners<br>Paper and conversation are enough.</p></div>
+ <div><ol class="cycle" aria-label="Learn. Question. Decide.">
+ <li><span class="number" aria-hidden="true">01</span><div><strong>Learn.</strong><p>What is happening?<br>What can I understand or practise?</p></div></li>
+ <li><span class="number" aria-hidden="true">02</span><div><strong>Question.</strong><p>What supports this?<br>Who could be affected?</p></div></li>
+ <li><span class="number" aria-hidden="true">03</span><div><strong>Decide.</strong><p>What will I do, and why?<br>What could change my mind?</p></div></li>
+ </ol><p class="revisit">New evidence? Return to Learn.</p></div>
+</section>
+<section class="journey" aria-labelledby="journey-title">
+ <h2 id="journey-title">Begin with something familiar.</h2>
+ <p class="intro">Begin with a familiar task. Explore how work and society could change. Strengthen useful skills and make a plan that fits your life. Each lesson asks you to learn, question and explain a choice.</p>
+ <div class="lesson-cards">
+ <a class="lesson-card" href="#lesson-1"><span class="number">LESSON 01 · EVERYDAY LIFE</span><h3>A message that looks ready.</h3><p>Check what a convincing answer gets right and what needs your judgment.</p><span class="read">Read lesson 1 →</span></a>
+ <a class="lesson-card" href="#lesson-2"><span class="number">LESSON 02 · WORKING WITH AI</span><h3>Give a useful idea a shape.</h3><p>Describe a task, examine a response and adapt it when the brief changes.</p><span class="read">Read lesson 2 →</span></a>
+ <a class="lesson-card" href="#lesson-3"><span class="number">LESSON 03 · EVIDENCE AND TRUST</span><h3>Follow the claim back.</h3><p>Separate evidence, repetition, predictions and opinions.</p><span class="read">Read lesson 3 →</span></a>
+ <a class="lesson-card" href="#lesson-4"><span class="number">LESSON 04 · CHANGING WORK</span><h3>A job is more than one task.</h3><p>Explore skills, opportunity and the decisions that shape a working day.</p><span class="read">Read lesson 4 →</span></a>
+ <a class="lesson-card" href="#lesson-5"><span class="number">LESSON 05 · AI IN SOCIETY</span><h3>A faster service for whom?</h3><p>Consider benefits, missing perspectives and the choices around a system.</p><span class="read">Read lesson 5 →</span></a>
+ <a class="lesson-card" href="#lesson-6"><span class="number">LESSON 06 · SKILLS WORTH DEVELOPING</span><h3>What can you explain?</h3><p>Use help with a purpose, then practise on a changed example.</p><span class="read">Read lesson 6 →</span></a>
+ <a class="lesson-card" href="#lesson-7"><span class="number">LESSON 07 · RESPONSIBILITY AND CHOICE</span><h3>Make the boundary clear.</h3><p>Decide what information, review and correction fit the task.</p><span class="read">Read lesson 7 →</span></a>
+ <a class="lesson-card" href="#lesson-8"><span class="number">LESSON 08 · YOUR NEXT 30 DAYS</span><h3>Choose a useful next step.</h3><p>Bring the ideas together and build a plan you can revise.</p><span class="read">Read lesson 8 →</span></a>
+ </div>
+ <p class="print-note">This edition includes the lesson answers and worksheets. All stories and practice records are invented.</p>
+</section>
+<div class="reading-layout">
+ <nav class="rail" aria-label="Reading navigation"><p>Your learning route</p>
+ <a href="#overview">Welcome</a><a href="#course-map">Course map</a><a href="#lesson-1">01 · Everyday life</a><a href="#lesson-2">02 · Working with AI</a><a href="#lesson-3">03 · Evidence and trust</a><a href="#lesson-4">04 · Changing work</a><a href="#lesson-5">05 · AI in society</a><a href="#lesson-6">06 · Skills worth developing</a><a href="#lesson-7">07 · Responsibility and choice</a><a href="#lesson-8">08 · Your next 30 days</a><a href="#workbook">Your workbook</a><a href="#glossary">Glossary</a><a href="#sources">Sources</a><a href="#reuse">Reuse</a></nav>
+ <div class="content"><section class="reading-section" id="course-map"><div class="section-tag">Your learning route</div><h2 id="course-map-course-map">Course map</h2>
+<p><a href="#overview">Course home</a></p>
+<p><strong>Your choices matter. Learn. Question. Decide.</strong></p>
+<p>Eight complete lessons take you from a small everyday choice to decisions about work, society and your own learning. No additional lesson is required to complete this edition.</p>
+<table>
+<thead>
+<tr>
+<th>Route</th>
+<th>Central question</th>
+<th>Work you can demonstrate</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-label="
+
+Route"><a href="#lesson-1">1. Everyday life</a></td>
+<td data-label="Central question">Where could AI help, and what needs checking?</td>
+<td data-label="Work you can demonstrate">Correct a message and explain a choice</td>
+</tr>
+<tr>
+<td data-label="
+
+Route"><a href="#lesson-2">2. Working with AI</a></td>
+<td data-label="Central question">How can I explain a task and improve the result?</td>
+<td data-label="Work you can demonstrate">Write a brief and adapt an agenda to changed conditions</td>
+</tr>
+<tr>
+<td data-label="
+
+Route"><a href="#lesson-3">3. Evidence and trust</a></td>
+<td data-label="Central question">What deserves my trust?</td>
+<td data-label="Work you can demonstrate">Trace a claim and update it when new evidence arrives</td>
+</tr>
+<tr>
+<td data-label="
+
+Route"><a href="#lesson-4">4. Changing work</a></td>
+<td data-label="Central question">Which tasks could change, and who shapes that change?</td>
+<td data-label="Work you can demonstrate">Map work, compare a whole task and propose a shared improvement</td>
+</tr>
+<tr>
+<td data-label="
+
+Route"><a href="#lesson-5">5. AI in society</a></td>
+<td data-label="Central question">Who benefits, who faces barriers and who can influence a decision?</td>
+<td data-label="Work you can demonstrate">Examine participation data and explain a public-service trade-off</td>
+</tr>
+<tr>
+<td data-label="
+
+Route"><a href="#lesson-6">6. Skills worth developing</a></td>
+<td data-label="Central question">How can I strengthen knowledge, judgment and collaboration?</td>
+<td data-label="Work you can demonstrate">Explain a method and use it on a changed example</td>
+</tr>
+<tr>
+<td data-label="
+
+Route"><a href="#lesson-7">7. Responsibility and choice</a></td>
+<td data-label="Central question">What information, review and human involvement fit the situation?</td>
+<td data-label="Work you can demonstrate">Set boundaries and question a selection rule</td>
+</tr>
+<tr>
+<td data-label="
+
+Route"><a href="#lesson-8">8. Your next 30 days</a></td>
+<td data-label="Central question">What small action is worth taking now?</td>
+<td data-label="Work you can demonstrate">Connect the lessons in a final case and build a learning plan</td>
+</tr>
+</tbody>
+</table>
+<h3 id="course-map-three-connected-perspectives">Three connected perspectives</h3>
+<p><strong>My task:</strong> understand, create and check. Lessons 1–3 establish this foundation.</p>
+<p><strong>Our work and society:</strong> examine opportunity, burdens and shared decisions. Lessons 4–5 broaden the view.</p>
+<p><strong>My contribution and next step:</strong> practise skills, take responsibility and keep learning. Lessons 6–8 bring the ideas into action.</p>
+<p>These perspectives overlap. Revisit the earlier questions when a new situation is difficult. Completing the route means attempting and explaining choices, not agreeing with every example answer.</p>
+<h3 id="course-map-optional-routes-into-the-existing-library">Optional routes into the existing library</h3>
+<ul>
+<li>New to digital tools: <a href="https://github.com/Green-Web-Land/Essential-for-Life/tree/main/courses/computers">Computers</a> and <a href="https://github.com/Green-Web-Land/Essential-for-Life/tree/main/courses/internet">Internet</a>.</li>
+<li>More practice evaluating claims: <a href="https://github.com/Green-Web-Land/Essential-for-Life/tree/main/courses/learning">Learning and information checking</a>.</li>
+<li>Preparing for a workplace task: <a href="https://github.com/Green-Web-Land/AI-Introduction/tree/main/courses/work">AI at work</a> and <a href="https://github.com/Green-Web-Land/Essential-for-Life/tree/main/courses/work">Working well</a>.</li>
+<li>Exploring longer-term possibilities: <a href="https://github.com/Green-Web-Land/AI-Introduction/blob/main/courses/adults/lessons/08-prediction.md">Adult future scenarios</a>.</li>
+</ul>
+<p>Choose an optional link because it serves a goal. No linked course is a prerequisite.</p>
+</section><section class="reading-section" id="lesson-1"><div class="section-tag">Lesson 01</div><h2 id="lesson-1-ai-in-your-everyday-life">AI in your everyday life</h2>
+<p><strong>Your choices matter. Learn. Question. Decide.</strong></p>
+<p>Lesson 1 of 8 · Adult beginners · About 20–25 minutes, at your own pace</p>
+<p><strong>By the end:</strong> you can identify what AI helped produce, check it against supplied facts and choose a next step with a reason.</p>
+<h3 id="lesson-1-a-message-that-looks-ready">A message that looks ready</h3>
+<p>Lina helps at a neighbourhood bicycle repair shop. She has three notes for a customer update:</p>
+<blockquote>
+<p><strong>Fictional workshop notes</strong></p>
+<p>The bicycle has arrived. Inspection has not started. The workshop has not confirmed a collection date.</p>
+</blockquote>
+<p>An AI assistant produces this draft:</p>
+<blockquote>
+<p>“Good news! We have inspected your bicycle and it will be ready on Friday.”</p>
+</blockquote>
+<p>The message is friendly. It is also wrong in two important ways. Before reading on, point to the words that the notes do not support.</p>
+<h3 id="lesson-1-learn--recognise-the-kind-of-help" class="step-title">Learn — recognise the kind of help</h3>
+<p>AI is a broad name for computer systems that use inputs to produce outputs such as predictions, recommendations or generated content. This course focuses mainly on generative AI: tools that can produce words, pictures and other content. Different systems have different abilities.</p>
+<p>For example, a system may suggest wording, recommend an item or sort a request into a category. These outputs can influence what people see and do next. This course starts with a message you can inspect, then widens the view to decisions about work and shared services.</p>
+<p>You might encounter a generated explanation, a translation suggestion or a list of ideas. Some applications also connect to tools that search, save or send. Writing a message and sending it are separate events. A generated sentence saying “I sent it” is not enough to establish that a message was sent.</p>
+<p>In Lina's story, the assistant helped turn notes into a draft. It did not establish the bicycle's condition or the collection date. Clear wording and factual support need separate checks. NIST identifies confidently presented false content as a generative-AI risk. <a href="https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf">Background source</a></p>
+<p>Lina could still use assistance for the wording. She could also write the short message herself. A useful choice depends on the task and the checking it needs.</p>
+<h3 id="lesson-1-question--go-back-to-the-evidence" class="step-title">Question — go back to the evidence</h3>
+<p>Use three questions:</p>
+<ol>
+<li><strong>What supports this?</strong> Compare each important claim with the notes.</li>
+<li><strong>What is missing?</strong> Keep unknown details visible.</li>
+<li><strong>Who could be affected?</strong> Imagine the customer arranging a journey around a promised date.</li>
+</ol>
+<p>“We have inspected” conflicts with “inspection has not started.” “Ready on Friday” adds a date that was never confirmed. Asking the same assistant whether it is certain would not provide evidence from the workshop.</p>
+<p>A corrected draft is:</p>
+<blockquote>
+<p>“Your bicycle has arrived. Inspection has not started yet, and the collection date is still to be confirmed.”</p>
+</blockquote>
+<p>It is useful because it preserves the actual state. The shop can add a confirmed next step once it has one.</p>
+<h3 id="lesson-1-decide--choose-an-action-you-can-explain" class="step-title">Decide — choose an action you can explain</h3>
+<p>Lina chooses to revise the draft, check the current workshop record and follow the shop's normal process for sending it. If the record has changed, the message should change too.</p>
+<p>Her reason is simple: “I want the customer to receive an accurate update.” Her decision remains open to new evidence.</p>
+<p><strong>Your choices matter</strong> here means you can ask questions and take responsibility for your part. The shop also has responsibilities: clear records, workable review time and tools employees are permitted to use.</p>
+<h3 id="lesson-1-your-turn--make-a-useful-choice">Your turn — make a useful choice</h3>
+<p>Use this new fictional notice:</p>
+<blockquote>
+<p>A community repair session is on 12 June, from 10:00 to 11:00, in Cedar Room. Attendance is free. Participants should bring one item of clothing. Booking requirements have not been supplied.</p>
+</blockquote>
+<p>An invented assistant draft says:</p>
+<blockquote>
+<p>“Drop in on 12 June from 10:00 to 12:00. No booking needed. Bring your bicycle.”</p>
+</blockquote>
+<p>On paper or aloud:</p>
+<ol>
+<li>Find two contradictions and one unsupported claim.</li>
+<li>Write a corrected version using the room and cost as well.</li>
+<li>Name one question to settle before sharing the notice.</li>
+<li>Choose whether you would edit this short message yourself or use AI to help. Explain your choice.</li>
+</ol>
+<details class="answer" id="lesson-1-compare-your-reasoning"><summary>Compare your reasoning</summary><div class="answer-body"><p>The finish time should be 11:00, and the item should be clothing. “No booking needed” is unsupported.</p>
+<p>One corrected version: “Join the free repair session in Cedar Room on 12 June, 10:00–11:00. Bring one item of clothing. Booking requirements are still to be confirmed.”</p>
+<p>Ask the organiser whether booking is needed. A year or address may also be needed for a real announcement. Either writing method is reasonable if you can explain it and check the result.</p>
+</div></details>
+<h3 id="lesson-1-try-a-different-situation">Try a different situation</h3>
+<p>A fictional hobby newsletter asks for three titles for a story about a lost umbrella. Which part could AI help with? How would your check differ from the repair notice?</p>
+<details class="answer" id="lesson-1-compare-your-reasoning-1"><summary>Compare your reasoning</summary><div class="answer-body"><p>AI could suggest titles; you choose one that fits the story and your intended tone. A creative preference can have several good answers. An event time needs factual support. If a suggested title makes a factual claim, that part still needs checking.</p>
+</div></details>
+<h3 id="lesson-1-take-it-with-you">Take it with you</h3>
+<p>Complete one sentence: “For my next small task, I will learn ___, question ___, and decide ___ because ___.”</p>
+<p>You can use the <a href="#workbook-my-choice">choice worksheet</a>. Your reason matters more than matching another learner's answer.</p>
+<p><a href="#lesson-2">Next: Working with AI</a> · <a href="#overview">Course home</a></p>
+</section><section class="reading-section" id="lesson-2"><div class="section-tag">Lesson 02</div><h2 id="lesson-2-working-with-ai">Working with AI</h2>
+<p><strong>Your choices matter. Learn. Question. Decide.</strong></p>
+<p>Lesson 2 of 8 · Adult beginners · About 25–35 minutes, at your own pace</p>
+<p><strong>By the end:</strong> you can describe a useful task, compare a response with your requirements and improve the result without giving away the decision.</p>
+<h3 id="lesson-2-an-idea-needs-a-shape">An idea needs a shape</h3>
+<p>Arun is organising a small community skill-sharing session. He asks an assistant, “Give me something exciting.” It suggests a competition, a video presentation and an online sign-up campaign. None fits the quiet, informal gathering he imagined.</p>
+<p>The problem is partly the missing brief. Arun knows what the participants need; he has not yet explained it. A fluent response cannot tell him whether those missing requirements have been met.</p>
+<h3 id="lesson-2-learn--give-the-task-a-useful-brief" class="step-title">Learn — give the task a useful brief</h3>
+<p>A <strong>prompt</strong> is an instruction or question given to an AI system. A useful brief can contain five things:</p>
+<table>
+<thead>
+<tr>
+<th>Part</th>
+<th>Arun's fictional brief</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-label="
+
+Part">Purpose</td>
+<td data-label="Arun&#x27;s fictional brief">Help four adults share a practical skill in a friendly session</td>
+</tr>
+<tr>
+<td data-label="
+
+Part">Supplied information</td>
+<td data-label="Arun&#x27;s fictional brief">Thirty minutes; one room; paper and pens available</td>
+</tr>
+<tr>
+<td data-label="
+
+Part">Boundaries</td>
+<td data-label="Arun&#x27;s fictional brief">No internet, purchases or competition; everyone may choose to observe</td>
+</tr>
+<tr>
+<td data-label="
+
+Part">Desired result</td>
+<td data-label="Arun&#x27;s fictional brief">Two possible agendas with times and materials</td>
+</tr>
+<tr>
+<td data-label="
+
+Part">Check</td>
+<td data-label="Arun&#x27;s fictional brief">Add the times; check the materials and participation choices</td>
+</tr>
+</tbody>
+</table>
+<p>He could give the same brief to a human helper. Explaining a task is a transferable skill.</p>
+<p>A more useful request is: “Using these details, suggest two 30-minute agendas. Include a quiet participation option. Use paper and pens only. List any important question you need answered rather than inventing the answer.”</p>
+<p>Specific instructions help define what you want; they do not guarantee compliance or accuracy. An assistant's statement that it followed every instruction still needs checking against the actual result.</p>
+<h3 id="lesson-2-question--compare-with-the-brief" class="step-title">Question — compare with the brief</h3>
+<p>Arun receives these <strong>invented responses</strong>:</p>
+<table>
+<thead>
+<tr>
+<th>Agenda A</th>
+<th>Agenda B</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-label="
+
+Agenda A">Welcome: 5 minutes</td>
+<td data-label="Agenda B">Welcome: 5 minutes</td>
+</tr>
+<tr>
+<td data-label="
+
+Agenda A">Pair skill-sharing: 10 minutes</td>
+<td data-label="Agenda B">Online quiz: 10 minutes</td>
+</tr>
+<tr>
+<td data-label="
+
+Agenda A">Write or sketch a useful tip: 10 minutes</td>
+<td data-label="Agenda B">Speed competition: 10 minutes</td>
+</tr>
+<tr>
+<td data-label="
+
+Agenda A">Optional sharing and close: 5 minutes</td>
+<td data-label="Agenda B">Awards and close: 5 minutes</td>
+</tr>
+</tbody>
+</table>
+<p>Both total 30 minutes. Agenda B conflicts with the no-internet and no-competition requirements. Agenda A is closer, but Arun should make the option to observe clear throughout, including the pair activity.</p>
+<p>He also asks whether the participants can use the room and materials comfortably. The brief may need a question about access; an assistant cannot discover every need from a short description.</p>
+<h3 id="lesson-2-decide--revise-with-a-reason" class="step-title">Decide — revise with a reason</h3>
+<p>Arun chooses A and writes: “During each activity, participants can speak, write, sketch or observe. No one must demonstrate a skill.” He asks the organiser about access needs before finalising arrangements.</p>
+<p>His working sequence is:</p>
+<blockquote>
+<p><strong>Describe the task → examine the response → revise → decide what to use.</strong></p>
+<p>If the purpose changes, return to the brief.</p>
+</blockquote>
+<p>He can ask for a limited revision: “Keep the 30-minute total. Make the participation options explicit. Do not add materials.” He can also edit it himself. More conversation with AI is useful only when it moves the work towards the goal.</p>
+<h3 id="lesson-2-your-turn--make-the-request-and-check-the-result">Your turn — make the request and check the result</h3>
+<p>Use this fictional task card:</p>
+<blockquote>
+<p>Plan a 20-minute indoor welcome activity for six adults. Paper and pens are available. No internet, purchases or compulsory speaking. Include time to explain the activity and close it.</p>
+</blockquote>
+<p>An invented response proposes: “Five-minute introduction, ten-minute online quiz, ten-minute round in which everyone gives a speech.”</p>
+<ol>
+<li>Write a brief using the five parts above.</li>
+<li>Identify the time problem and two other conflicts.</li>
+<li>Make a revised agenda and explain one choice.</li>
+</ol>
+<details class="answer" id="lesson-2-compare-your-reasoning"><summary>Compare your reasoning</summary><div class="answer-body"><p>The response totals 25 minutes, includes internet use and requires speaking. A workable revision is: explanation 3 minutes; individual writing or sketching 7; optional pair sharing or quiet reflection 7; close 3. The total is 20. Paper and pens suffice, and observing is also welcome.</p>
+<p>A useful brief names all the task-card constraints and asks for a timed agenda. Several agendas could work. Explain how yours serves the group rather than trying to reproduce these exact words.</p>
+</div></details>
+<h3 id="lesson-2-try-a-different-situation">Try a different situation</h3>
+<p>The organiser now says: “We have only 12 minutes, and no paper or pens.” Design a shorter activity with optional speaking. Would asking the assistant to “make the same plan faster” explain enough?</p>
+<details class="answer" id="lesson-2-compare-your-reasoning-1"><summary>Compare your reasoning</summary><div class="answer-body"><p>The materials changed as well as the time. State both changes. One option is: explanation 2 minutes; quiet thought about a useful skill 4; optional conversation or continued reflection 4; close 2. Nothing has to be written down. Ask about any access needs this activity should accommodate.</p>
+<p>The new result needs a new check. A plan that met yesterday's brief may not meet today's.</p>
+</div></details>
+<h3 id="lesson-2-take-it-with-you">Take it with you</h3>
+<p>Use the <a href="#workbook-my-task-brief">task-brief worksheet</a>. Choose a small task you understand well enough to judge. You can practise entirely with the supplied examples.</p>
+<p><a href="#lesson-1">Previous: Everyday life</a> · <a href="#lesson-3">Next: Evidence and trust</a> · <a href="#overview">Course home</a></p>
+</section><section class="reading-section" id="lesson-3"><div class="section-tag">Lesson 03</div><h2 id="lesson-3-evidence-and-trust">Evidence and trust</h2>
+<p><strong>Your choices matter. Learn. Question. Decide.</strong></p>
+<p>Lesson 3 of 8 · Adult beginners · About 25–35 minutes, at your own pace</p>
+<p><strong>By the end:</strong> you can trace a claim to its evidence, distinguish a proposal from a decision and explain what remains uncertain.</p>
+<h3 id="lesson-3-three-repetitions-one-source">Three repetitions, one source</h3>
+<p>Farah sees a social-media message: “The community library will replace all its staff with AI next month.” A second post repeats it. An AI-generated summary repeats it too.</p>
+<p>She feels worried. Seeing the claim three times makes it familiar. Before passing it on, she opens the supplied source cards below.</p>
+<blockquote>
+<p><strong>All three cards are invented for this lesson.</strong></p>
+<p><strong>A — Library planning note, 2 March:</strong> “We propose trying an automated catalogue-help desk for four weeks. Staff would remain available. The board has not decided whether to approve the trial.”</p>
+<p><strong>B — Community post, 3 March:</strong> “AI replaces all library staff next month!” The post links only to card A.</p>
+<p><strong>C — Assistant summary, 4 March:</strong> “Several reports say staff replacement is imminent.” Its references are card B and another post that quotes B.</p>
+</blockquote>
+<h3 id="lesson-3-learn--follow-the-claim-back" class="step-title">Learn — follow the claim back</h3>
+<p>Evidence is information that helps support or challenge a particular claim. A useful check asks <strong>who said what, when, on what basis, and about which situation</strong>.</p>
+<p>Cards B and C do not provide independent confirmation. They lead back to A, which says something different. Card A supports the existence of a proposal. It does not establish approval, a launch date or staff replacement.</p>
+<p>An original source can also be incomplete, mistaken or out of date. “Original” is a starting point for checking, not a promise of truth. For a current decision, look for a current decision record or ask the responsible organisation.</p>
+<p>Generative AI can produce confident false content, including misleading supporting material. That is one reason to open and examine a cited source instead of treating a citation-shaped sentence as evidence. <a href="https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf">NIST background, section 2.2</a></p>
+<h3 id="lesson-3-question--separate-four-kinds-of-statement" class="step-title">Question — separate four kinds of statement</h3>
+<table>
+<thead>
+<tr>
+<th>Statement</th>
+<th>What kind is it?</th>
+<th>What would help assess it?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-label="
+
+Statement">“A trial has been proposed”</td>
+<td data-label="What kind is it?">Claim about a recorded event</td>
+<td data-label="What would help assess it?">The planning note and its context</td>
+</tr>
+<tr>
+<td data-label="
+
+Statement">“The board will approve it”</td>
+<td data-label="What kind is it?">Prediction</td>
+<td data-label="What would help assess it?">Reasons and uncertainty; later, the actual decision</td>
+</tr>
+<tr>
+<td data-label="
+
+Statement">“The library should retain human help”</td>
+<td data-label="What kind is it?">Value or policy preference</td>
+<td data-label="What would help assess it?">Reasons, affected people's needs and alternatives</td>
+</tr>
+<tr>
+<td data-label="
+
+Statement">“The trial improved access”</td>
+<td data-label="What kind is it?">Claim about an outcome</td>
+<td data-label="What would help assess it?">Defined measures, relevant observations and comparison</td>
+</tr>
+</tbody>
+</table>
+<p>These can all belong in a discussion, but they do different jobs. A prediction should not quietly become a fact. A value judgment needs reasons even when no single measurement settles it.</p>
+<p>Pictures and recordings need context too. A clip may be generated, edited, mislabelled or taken from another occasion. Appearance alone does not settle the event, date or meaning. Seek the source and relevant corroboration; sometimes “I cannot verify this yet” is the most accurate conclusion.</p>
+<h3 id="lesson-3-decide--communicate-what-you-know" class="step-title">Decide — communicate what you know</h3>
+<p>Farah decides not to repeat the staff-replacement claim. She writes:</p>
+<blockquote>
+<p>“The supplied library note describes a proposed four-week help-desk trial, with staff remaining available. Approval is not confirmed in that note. I would check the board's current decision before saying the trial will happen.”</p>
+</blockquote>
+<p>She can still discuss whether the proposal is a good idea. Keeping evidence and opinion distinct makes that discussion clearer.</p>
+<h3 id="lesson-3-your-turn--repair-an-exaggerated-claim">Your turn — repair an exaggerated claim</h3>
+<p>Use these fictional records:</p>
+<blockquote>
+<p>A test involved five volunteer readers. Three completed a catalogue task without help; two asked a librarian. There was no comparison with the previous service. The report did not measure waiting time or staffing needs.</p>
+<p>A promotional summary says: “The test proves everyone can use the system independently, and it halves the need for staff.”</p>
+</blockquote>
+<ol>
+<li>Identify two claims the record does not support.</li>
+<li>Write a careful two-sentence summary.</li>
+<li>Name one question worth investigating next.</li>
+</ol>
+<details class="answer" id="lesson-3-compare-your-reasoning"><summary>Compare your reasoning</summary><div class="answer-body"><p>The “everyone independently” claim conflicts with two people asking for help. No staffing comparison supports the claim about halving staff needs.</p>
+<p>One summary: “In this small five-person test, three readers completed the task without help and two asked a librarian. The record does not establish how the system compares with the previous service or what staffing it needs.”</p>
+<p>Useful next questions concern varied access needs, mistakes, time spent by staff or performance on different tasks. Five volunteers cannot stand in for every reader.</p>
+</div></details>
+<h3 id="lesson-3-try-a-different-situation">Try a different situation</h3>
+<p>A later fictional board notice says: “We approved the four-week trial. Staff will remain available throughout. We have made no decision about service after the trial.”</p>
+<p>Which parts of Farah's earlier summary should change? Does this notice establish that the trial succeeds?</p>
+<details class="answer" id="lesson-3-compare-your-reasoning-1"><summary>Compare your reasoning</summary><div class="answer-body"><p>Approval is now confirmed, so replace the earlier uncertainty about approval. Human help remains part of the stated plan. Results and later arrangements are still unknown. New evidence can resolve one question while leaving others open.</p>
+</div></details>
+<h3 id="lesson-3-take-it-with-you">Take it with you</h3>
+<p>Use the <a href="#workbook-my-evidence-check">evidence worksheet</a>: claim, source, support, missing information and a proportionate next step.</p>
+<p><a href="#lesson-2">Previous: Working with AI</a> · <a href="#lesson-4">Next: Changing work</a> · <a href="#overview">Course home</a></p>
+</section><section class="reading-section" id="lesson-4"><div class="section-tag">Lesson 04</div><h2 id="lesson-4-how-ai-could-change-your-work">How AI could change your work</h2>
+<p><strong>Your choices matter. Learn. Question. Decide.</strong></p>
+<p>Lesson 4 of 8 · Adult beginners · About 30–40 minutes, at your own pace</p>
+<p><strong>By the end:</strong> you can examine a job as a set of tasks, identify a useful skill to practise and name a decision an organisation should address.</p>
+<p>You can use a job, volunteering role or the supplied fictional shop. You do not need to be employed or share private workplace information.</p>
+<h3 id="lesson-4-a-job-contains-many-kinds-of-work">A job contains many kinds of work</h3>
+<p>Lina's bicycle shop is considering AI assistance. One person says, “It can write customer messages, so it can do Lina's job.” Another says, “It sometimes makes mistakes, so it cannot help us at all.”</p>
+<p>Both statements skip the details. Lina also clarifies requests, coordinates with the workshop and listens when a customer is worried. Start by looking at the tasks.</p>
+<h3 id="lesson-4-learn--map-the-work" class="step-title">Learn — map the work</h3>
+<p><strong>Task exposure</strong> means a task could be affected by a technology's capabilities. It does not establish that a particular employer will adopt it or that a job will disappear. The ILO studies tasks within occupations; its 2026 explanation warns against treating exposure indicators alone as predictions of job losses. <a href="https://www.ilo.org/publications/generative-ai-and-jobs-refined-global-index-occupational-exposure">ILO research</a>, <a href="https://www.ilo.org/resource/news/new-ilo-brief-explains-what-ai-exposure-indicators-reveal-about-jobs">indicator limits</a></p>
+<p>Use this invented work map as a starting point:</p>
+<table>
+<thead>
+<tr>
+<th>Task</th>
+<th>Assistance worth exploring</th>
+<th>Human work to practise</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-label="
+
+Task">Organise supplied repair requests</td>
+<td data-label="Assistance worth exploring">Suggest groups or summaries</td>
+<td data-label="Human work to practise">Notice omissions and understand urgency</td>
+</tr>
+<tr>
+<td data-label="
+
+Task">Draft a customer update</td>
+<td data-label="Assistance worth exploring">Suggest clear wording</td>
+<td data-label="Human work to practise">Verify facts and commitments</td>
+</tr>
+<tr>
+<td data-label="
+
+Task">Compare supplied costs</td>
+<td data-label="Assistance worth exploring">Arrange a comparison</td>
+<td data-label="Human work to practise">Recalculate totals and explain trade-offs</td>
+</tr>
+<tr>
+<td data-label="
+
+Task">Discuss a repair diagnosis</td>
+<td data-label="Assistance worth exploring">Suggest questions or reference leads</td>
+<td data-label="Human work to practise">Apply relevant technical expertise</td>
+</tr>
+<tr>
+<td data-label="
+
+Task">Respond to a worried customer</td>
+<td data-label="Assistance worth exploring">Help prepare possible wording</td>
+<td data-label="Human work to practise">Listen, clarify and take responsibility</td>
+</tr>
+</tbody>
+</table>
+<p>These are possibilities to evaluate, not a forecast or proof that a particular tool performs them well. The combination of tasks, people and conditions matters.</p>
+<h3 id="lesson-4-question--whose-experience-improves" class="step-title">Question — whose experience improves?</h3>
+<p>Suppose a tool reduces drafting time. What happens to that time?</p>
+<p>Consider three <strong>possible choices by the fictional shop</strong>, rather than three predictions:</p>
+<ul>
+<li><strong>More time with customers:</strong> the shop uses some time for clearer explanations and provides training.</li>
+<li><strong>More pressure:</strong> the shop increases the number of messages expected but provides no time to check them.</li>
+<li><strong>Selective use:</strong> the shop keeps assistance for a few useful drafts and handles other tasks in its usual way.</li>
+</ul>
+<p>The same capability can be used differently. Ask who benefits, who carries extra checking work, how beginners gain experience and how staff can raise problems. Workers can contribute knowledge about the real task; managers and providers must address resources and design.</p>
+<p>This question also reaches society. Imagine a community service introducing an automated enquiry desk. Faster answers might help some people, while people who cannot use the interface need another route. A sensible discussion asks about accuracy, access and human help together.</p>
+<h3 id="lesson-4-looking-further-ahead">Looking further ahead</h3>
+<p>Imagine three possible changes at the shop: a routine drafting task takes less time; checking and explaining results takes more attention; a new responsibility appears for maintaining useful examples and helping colleagues learn. These possibilities could change the mix of work without moving in the same direction for every person.</p>
+<p>There are also harder possibilities: fewer paid hours, an entry-level task disappearing, or training that is available only to some staff. The task-exposure research does not tell us which outcome this shop will experience. Ask what the organisation actually plans, how staff can contribute and what support would accompany a change.</p>
+<p>For your own development, look for an adjacent contribution: what useful part of the work could you understand or perform better? Lina could practise explaining technical information clearly. A colleague could practise checking a cost comparison. These are options to explore, not promises of job security. Organisations and public institutions also shape opportunities, training and support.</p>
+<h3 id="lesson-4-decide--choose-a-small-experiment-and-a-shared-question" class="step-title">Decide — choose a small experiment and a shared question</h3>
+<p>Lina proposes practising on invented notes, comparing the result with a manual draft and asking the manager how review time would be provided. She wants to strengthen clear writing and customer communication whether or not the shop adopts the tool.</p>
+<p>She does not have to predict her whole career. She can choose a useful next skill and ask to participate in decisions that affect the work.</p>
+<h3 id="lesson-4-your-turn--compare-the-whole-task">Your turn — compare the whole task</h3>
+<p>These invented timings describe one exercise:</p>
+<table>
+<thead>
+<tr>
+<th>Method</th>
+<th>Drafting</th>
+<th>Checking</th>
+<th>Corrections</th>
+<th>Total</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-label="
+
+Method">Manual</td>
+<td data-label="Drafting">12 minutes</td>
+<td data-label="Checking">5 minutes</td>
+<td data-label="Corrections">3 minutes</td>
+<td data-label="Total">20 minutes</td>
+</tr>
+<tr>
+<td data-label="
+
+Method">Assisted</td>
+<td data-label="Drafting">4 minutes</td>
+<td data-label="Checking">8 minutes</td>
+<td data-label="Corrections">6 minutes</td>
+<td data-label="Total">?</td>
+</tr>
+</tbody>
+</table>
+<ol>
+<li>Calculate the assisted total and the difference.</li>
+<li>Explain why that difference alone does not settle which method is better.</li>
+<li>Choose one row from the work map. Name a skill you would practise and how someone could observe it.</li>
+<li>Write one question for a manager about introducing assistance fairly.</li>
+</ol>
+<details class="answer" id="lesson-4-compare-your-reasoning"><summary>Compare your reasoning</summary><div class="answer-body"><p>The assisted total is 18 minutes, two minutes less than 20. This one fictional comparison does not establish equal quality, accessibility or a general saving. Both drafts must meet the same requirements; training and tool costs would also matter in a real decision.</p>
+<p>A useful skill goal is: “I will write a clear update from unfamiliar notes and explain which fact supports each sentence.” A manager question could be: “How will checking time and training be included in the workload?” Other questions about worker input, accessibility or correction responsibility are equally useful.</p>
+</div></details>
+<h3 id="lesson-4-try-a-different-situation">Try a different situation</h3>
+<p>A tool drafts the same kind of message in 2 minutes, but checking takes 15 and correction takes 6. A colleague says, “The draft is faster, so the job is faster.”</p>
+<p>What would you say? Then name one reason the organisation might still investigate the tool.</p>
+<details class="answer" id="lesson-4-compare-your-reasoning-1"><summary>Compare your reasoning</summary><div class="answer-body"><p>The full task takes 23 minutes, three more than the manual example. Faster drafting did not make this example faster overall. The organisation might investigate a different benefit, such as a useful format or language option, but would need to evaluate it. Speed is one consideration.</p>
+</div></details>
+<h3 id="lesson-4-take-it-with-you">Take it with you</h3>
+<p>Use the <a href="#workbook-my-work-and-skills">work-and-skills map</a>. Choose one task to understand, one skill to strengthen and one organisational question to raise.</p>
+<p>Your choices matter. So do access, training, time and the choices of people who organise work. An uncertain future is a reason to keep learning and participating, without blaming yourself for conditions you cannot control.</p>
+<p><a href="#lesson-3">Previous: Evidence and trust</a> · <a href="#lesson-5">Next: AI in society</a> · <a href="#overview">Course home</a></p>
+</section><section class="reading-section" id="lesson-5"><div class="section-tag">Lesson 05</div><h2 id="lesson-5-ai-in-society">AI in society</h2>
+<p><strong>Your choices matter. Learn. Question. Decide.</strong></p>
+<p>Lesson 5 of 8 · Adult beginners · About 30–40 minutes, at your own pace</p>
+<p><strong>By the end:</strong> you can compare possible social outcomes, identify whose experience is missing and propose a change that makes a shared service more accountable.</p>
+<h3 id="lesson-5-a-faster-service-for-whom">A faster service for whom?</h3>
+<p>Farah attends an open discussion at the fictional Riverside community centre. The centre is considering AI to sort activity requests and suggest which new classes to offer.</p>
+<p>One resident hopes this will reveal overlooked interests. Another worries that the centre will listen mainly to people who use its app. A staff member wants less repetitive administration and more time helping visitors.</p>
+<p>These concerns can all be reasonable. Understanding the proposal means looking beyond what the software can produce.</p>
+<h3 id="lesson-5-learn--see-the-decisions-around-the-system" class="step-title">Learn — see the decisions around the system</h3>
+<p>Some AI generates content; other systems classify, rank or recommend. In this story the system groups requests and recommends priorities. The centre still chooses the purpose, information collected, purchasing arrangement and rules for acting on results.</p>
+<p>Follow the chain:</p>
+<table>
+<thead>
+<tr>
+<th>Stage</th>
+<th>A human or institutional choice</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-label="
+
+Stage">People express needs</td>
+<td data-label="A human or institutional choice">Which languages and contact routes are available?</td>
+</tr>
+<tr>
+<td data-label="
+
+Stage">Requests become data</td>
+<td data-label="A human or institutional choice">Are repeat messages, missing responses and context understood?</td>
+</tr>
+<tr>
+<td data-label="
+
+Stage">A system produces suggestions</td>
+<td data-label="A human or institutional choice">What is it trying to improve, and how is it checked?</td>
+</tr>
+<tr>
+<td data-label="
+
+Stage">The centre allocates resources</td>
+<td data-label="A human or institutional choice">Who can question the recommendation before it affects people?</td>
+</tr>
+<tr>
+<td data-label="
+
+Stage">People experience the service</td>
+<td data-label="A human or institutional choice">Who measures access, benefit, mistakes and correction?</td>
+</tr>
+</tbody>
+</table>
+<p>AI's effects depend partly on choices throughout this chain. A high score for speed alone cannot tell the centre whether the service meets its purpose.</p>
+<p>UNESCO's AI ethics recommendation connects AI with fairness, human oversight, inclusion and environmental concerns. NIST also treats trustworthiness as involving social and organisational conditions. These are useful lenses for asking questions, not proof that a particular system meets them. <a href="https://www.unesco.org/en/artificial-intelligence/recommendation-ethics">UNESCO</a>, <a href="https://airc.nist.gov/airmf-resources/airmf/3-sec-characteristics/">NIST</a></p>
+<h3 id="lesson-5-question--compare-possible-futures" class="step-title">Question — compare possible futures</h3>
+<p>Imagine three possible arrangements at Riverside. These are scenarios, not forecasts:</p>
+<ul>
+<li><strong>Broader participation:</strong> staff combine app, telephone and in-person requests. They check patterns with residents and use saved administrative time for support.</li>
+<li><strong>A narrow picture:</strong> app messages become the main measure of demand. Repeated messages dominate, and people outside the app become less visible.</li>
+<li><strong>More dependence on a supplier:</strong> the service works well initially, but a price or policy change leaves the centre without an affordable way to retrieve its records or continue the service.</li>
+</ul>
+<p>Different futures can overlap. Ask what evidence would reveal each one early and who has power to change the arrangement.</p>
+<p>Wider society presents similar choices: schools decide how learners practise; employers decide how gains and burdens are shared; public bodies decide how people can obtain help or challenge an outcome. Communities can ask about resource use and environmental costs alongside financial costs. This course supplies no universal footprint estimate: the relevant system, use and comparison would need evidence.</p>
+<h3 id="lesson-5-decide--turn-a-concern-into-a-proposal" class="step-title">Decide — turn a concern into a proposal</h3>
+<p>Farah proposes: “Count different people's requests, keep a non-app route, and check whether participation broadens. Have staff explain the final choices and provide a way to correct missing information.”</p>
+<p>She also asks what happens if the system becomes unavailable. The centre can consider a bounded trial, change the proposal or retain its current process.</p>
+<p>One person cannot control the whole arrangement. People can still contribute through a staff discussion, residents' meeting, learner group or other suitable local channel. People responsible for the service must provide meaningful ways to participate.</p>
+<h3 id="lesson-5-your-turn--question-the-measurement">Your turn — question the measurement</h3>
+<p>These invented figures describe responses during one consultation:</p>
+<table>
+<thead>
+<tr>
+<th>Area</th>
+<th>App messages</th>
+<th>Different app participants</th>
+<th>Residents in the area</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-label="
+
+Area">North</td>
+<td data-label="App messages">80</td>
+<td data-label="Different app participants">40</td>
+<td data-label="Residents in the area">200</td>
+</tr>
+<tr>
+<td data-label="
+
+Area">South</td>
+<td data-label="App messages">20</td>
+<td data-label="Different app participants">20</td>
+<td data-label="Residents in the area">200</td>
+</tr>
+</tbody>
+</table>
+<p>An assistant suggests: “Give North four times as many new classes because its need is four times greater.”</p>
+<ol>
+<li>What was counted four times as often? What was counted twice as often?</li>
+<li>Why do neither of those comparisons establish the whole community's need?</li>
+<li>Name a possible benefit of analysing requests and a missing perspective.</li>
+<li>Propose two checks before deciding where to offer classes.</li>
+</ol>
+<details class="answer" id="lesson-5-compare-your-reasoning"><summary>Compare your reasoning</summary><div class="answer-body"><p>North sent four times as many messages (80 compared with 20) and had twice as many different app participants (40 compared with 20). These are different measurements. Equal area populations do not make app participation representative or tell us what non-participants need.</p>
+<p>Grouping requests could help staff notice interests. People who did not use the app are missing, and repeated messages can distort the picture. Checks could include telephone or in-person consultation, looking at which activities are requested and asking why people did not participate. No exact allocation follows from this table alone.</p>
+</div></details>
+<h3 id="lesson-5-try-a-different-situation">Try a different situation</h3>
+<p>Riverside has already gathered requests through several routes. Now a proposed ranking rule favours activities with the highest predicted attendance. A small group requests a quieter session that would meet an access need but attract fewer people.</p>
+<p>Is “count more people” enough to settle this choice? State one question and one possible arrangement.</p>
+<details class="answer" id="lesson-5-compare-your-reasoning-1"><summary>Compare your reasoning</summary><div class="answer-body"><p>Better participation data would help, but the purpose of the service also matters. Ask whether the centre aims only to maximise attendance or also to provide access for smaller groups. One arrangement could combine larger sessions with a quieter session, subject to available space and staff. Explain the trade-off openly; a prediction cannot choose the centre's values for it.</p>
+</div></details>
+<h3 id="lesson-5-take-it-with-you">Take it with you</h3>
+<p>Complete the <a href="#workbook-our-shared-choice">shared-choice worksheet</a>. Record a possible benefit, someone whose perspective is missing, a question for the responsible organisation and evidence that could change your view.</p>
+<p><a href="#lesson-4">Previous: Changing work</a> · <a href="#lesson-6">Next: Skills worth developing</a> · <a href="#overview">Course home</a></p>
+</section><section class="reading-section" id="lesson-6"><div class="section-tag">Lesson 06</div><h2 id="lesson-6-skills-worth-developing">Skills worth developing</h2>
+<p><strong>Your choices matter. Learn. Question. Decide.</strong></p>
+<p>Lesson 6 of 8 · Adult beginners · About 25–35 minutes, at your own pace</p>
+<p><strong>By the end:</strong> you can choose a skill worth practising, use help with a clear purpose and demonstrate what you understand on a changed example.</p>
+<h3 id="lesson-6-a-good-result-an-unanswered-question">A good result, an unanswered question</h3>
+<p>Lina uses a worked example to prepare a neat summary of shop activity. A colleague asks, “Why did you calculate it that way?” She finds that she can point to the answer but cannot yet explain it.</p>
+<p>The summary may be useful. Her learning goal needs a separate check. She wants to understand the method well enough to notice when it does not fit.</p>
+<h3 id="lesson-6-learn--choose-skills-that-serve-your-purpose" class="step-title">Learn — choose skills that serve your purpose</h3>
+<p>No course can promise a list of skills that guarantees future employment. Start with a task or contribution that matters to you.</p>
+<table>
+<thead>
+<tr>
+<th>Skill to strengthen</th>
+<th>What practice could look like</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-label="
+
+Skill to strengthen">Knowledge of your subject</td>
+<td data-label="What practice could look like">Explain a concept and recognise when specialist help is needed</td>
+</tr>
+<tr>
+<td data-label="
+
+Skill to strengthen">Clear communication</td>
+<td data-label="What practice could look like">Turn notes into an explanation for a particular reader</td>
+</tr>
+<tr>
+<td data-label="
+
+Skill to strengthen">Evidence and number sense</td>
+<td data-label="What practice could look like">Check a claim, total or comparison and describe its limits</td>
+</tr>
+<tr>
+<td data-label="
+
+Skill to strengthen">Collaboration</td>
+<td data-label="What practice could look like">Listen, clarify different needs and agree who will do what</td>
+</tr>
+<tr>
+<td data-label="
+
+Skill to strengthen">Creative judgment</td>
+<td data-label="What practice could look like">Produce alternatives and explain why one fits the purpose</td>
+</tr>
+<tr>
+<td data-label="
+
+Skill to strengthen">Learning and revision</td>
+<td data-label="What practice could look like">Try, examine feedback and change your approach</td>
+</tr>
+</tbody>
+</table>
+<p>AI may provide examples, practice questions or alternative wording. A person, book, calculator or other reference can also help. Choose assistance according to the goal and your access needs. Using an accessibility aid does not make your understanding less your own.</p>
+<p>For this course, try a practice cycle:</p>
+<blockquote>
+<p><strong>Attempt → study feedback → explain → try a changed example.</strong></p>
+<p>Keep the help you need. Remove the sample answer when checking whether you understand the idea.</p>
+</blockquote>
+<p>This is a teaching routine to try, not a measured promise about learning speed.</p>
+<h3 id="lesson-6-question--what-can-you-explain" class="step-title">Question — what can you explain?</h3>
+<p>Use this invented example. The shop holds three open advice sessions. Visits are 12, 18 and 0. All three sessions took place, including the one nobody attended.</p>
+<p>The mean, often called the average, is the total divided by the number of sessions:</p>
+<blockquote>
+<p><strong>(12 + 18 + 0) ÷ 3 = 30 ÷ 3 = 10 visits per session.</strong></p>
+</blockquote>
+<p>An invented assistant answer gives 15 by leaving out the zero. That answers a different question: the average among sessions that had at least one visitor.</p>
+<p>Ask what each number represents and which question you want answered. An explanation is more useful than memorising “always divide by three.” The number of sessions could change.</p>
+<p>You may use a calculator. The skill here is selecting and explaining the calculation, not mental arithmetic.</p>
+<h3 id="lesson-6-decide--match-help-to-the-learning-goal" class="step-title">Decide — match help to the learning goal</h3>
+<p>Lina asks a willing colleague to change the numbers after she has explained the first example. She can also ask an assistant for a practice question and check its answer against the method supplied here.</p>
+<p>She chooses a small goal: “I can say what is included in an average and why.” If this is still difficult, she starts with totals before returning to averages. If she already knows it, she chooses a more relevant skill from the table.</p>
+<p>Her progress is something she can demonstrate, not the sophistication of the tool she used.</p>
+<h3 id="lesson-6-your-turn--explain-a-changed-example">Your turn — explain a changed example</h3>
+<p>Four fictional advice sessions took place. Visits were 0, 6, 12 and 18. An assistant reports an average of 12 after excluding the zero.</p>
+<ol>
+<li>Calculate the total and mean across <strong>all four sessions</strong>. You can use a calculator or ask someone to read the numbers aloud.</li>
+<li>Explain why the zero belongs in this question.</li>
+<li>Explain which different question the answer 12 would address.</li>
+<li>Choose one skill from the table and describe evidence that you could demonstrate it.</li>
+</ol>
+<details class="answer" id="lesson-6-compare-your-reasoning"><summary>Compare your reasoning</summary><div class="answer-body"><p>The total is 36, and 36 ÷ 4 = 9 visits per session. The zero belongs because that session took place and the question includes all four. Dividing by the three sessions with visitors gives 12; that describes only sessions with at least one visitor.</p>
+<p>A skill demonstration could be explaining an unfamiliar record, writing for a new audience or adapting a design to changed requirements. “I watched a tutorial” describes an activity; it does not yet show what you can do.</p>
+</div></details>
+<h3 id="lesson-6-try-a-different-situation">Try a different situation</h3>
+<p>Now practise creative judgment. A community class needs a title that welcomes beginners and does not promise expertise. Two invented suggestions are “Become an AI Expert in One Hour” and “A First Conversation about AI.”</p>
+<p>Choose or revise a title and explain your reason. How would you demonstrate this skill on a new example?</p>
+<details class="answer" id="lesson-6-compare-your-reasoning-1"><summary>Compare your reasoning</summary><div class="answer-body"><p>The second title better fits the supplied purpose. The first promises expertise that the brief does not support. Other titles can work. To demonstrate the skill again, adapt a title for a different audience or purpose and explain the fit. This task has several reasonable answers; the average task had a specific numerical answer.</p>
+</div></details>
+<h3 id="lesson-6-take-it-with-you">Take it with you</h3>
+<p>Use the <a href="#workbook-my-skill-practice">skill-practice worksheet</a>. Record the help you used, what you can explain and a fresh example you will try. Choose a pace that fits your circumstances.</p>
+<p><a href="#lesson-5">Previous: AI in society</a> · <a href="#lesson-7">Next: Responsibility and choice</a> · <a href="#overview">Course home</a></p>
+</section><section class="reading-section" id="lesson-7"><div class="section-tag">Lesson 07</div><h2 id="lesson-7-responsibility-and-choice">Responsibility and choice</h2>
+<p><strong>Your choices matter. Learn. Question. Decide.</strong></p>
+<p>Lesson 7 of 8 · Adult beginners · About 25–35 minutes, at your own pace</p>
+<p><strong>By the end:</strong> you can set a reasonable boundary for an AI-assisted task, identify who needs to review it and explain when to change or stop the proposed use.</p>
+<h3 id="lesson-7-useful-assistance-an-important-boundary">Useful assistance, an important boundary</h3>
+<p>Arun wants help grouping suggestions for a community event. A spreadsheet contains ideas, names, contact details and personal notes explaining why some people need particular arrangements.</p>
+<p>The task is to understand the suggestions. The whole spreadsheet contains more information than that task needs. Arun also does not know whether the centre permits this tool for participant information.</p>
+<h3 id="lesson-7-learn--connect-the-task-to-its-consequences" class="step-title">Learn — connect the task to its consequences</h3>
+<p>Consider four questions before using a tool:</p>
+<table>
+<thead>
+<tr>
+<th>Question</th>
+<th>In Arun's fictional situation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-label="
+
+Question">What information is needed?</td>
+<td data-label="In Arun&#x27;s fictional situation">Activity suggestions; names and contact details are unnecessary for this practice</td>
+</tr>
+<tr>
+<td data-label="
+
+Question">Who has a say?</td>
+<td data-label="In Arun&#x27;s fictional situation">The centre's responsible organiser and the people whose information is involved</td>
+</tr>
+<tr>
+<td data-label="
+
+Question">What can the tool do?</td>
+<td data-label="In Arun&#x27;s fictional situation">Suggest groups; sending messages or changing records would be separate actions</td>
+</tr>
+<tr>
+<td data-label="
+
+Question">Who checks and corrects?</td>
+<td data-label="In Arun&#x27;s fictional situation">Arun can check the grouping; the organiser owns the decision about the actual event</td>
+</tr>
+</tbody>
+</table>
+<p>NIST's framework treats privacy, accountability and reliable performance as connected considerations. The appropriate arrangement depends on the use and its effects. <a href="https://airc.nist.gov/airmf-resources/airmf/3-sec-characteristics/">NIST background</a></p>
+<p>For this exercise, use the invented suggestion cards below. For a real organisational task, follow the relevant rules and use approved tools and information. Removing names alone may leave identifying details in a story, so do not assume that renamed records are anonymous.</p>
+<h3 id="lesson-7-question--is-the-review-meaningful" class="step-title">Question — is the review meaningful?</h3>
+<p>“A human checks it” leaves several questions unanswered. Does that person understand the task, have time to inspect the result and have authority to change it? Can the affected person reach someone if the outcome is wrong?</p>
+<p>The consequences matter. Suggesting alternative event titles is different from sending invitations, publishing people's details or deciding who receives a limited place. A successful small writing exercise does not establish readiness for those other uses.</p>
+<p>Arun asks whether a plain manual grouping would be easier. Choosing a simple method can be a reasonable decision. He also asks how to recover if a tool changes or becomes unavailable.</p>
+<h3 id="lesson-7-decide--make-the-boundary-concrete" class="step-title">Decide — make the boundary concrete</h3>
+<p>Arun chooses to practise with invented suggestions and compare the grouping manually. He will not upload the participant spreadsheet while the approved process is unclear. He asks the organiser what information and tools may be used for the actual task.</p>
+<p>His boundary is specific:</p>
+<blockquote>
+<p>“Use the supplied fictional cards to suggest groups. Keep every idea visible. Do not rank people or send anything. I will check the groups before choosing what to recommend.”</p>
+</blockquote>
+<p>The organisation remains responsible for its process, resources and decisions. A boundary written by one volunteer is only one part of that arrangement.</p>
+<h3 id="lesson-7-your-turn--keep-the-purpose-and-the-people-in-view">Your turn — keep the purpose and the people in view</h3>
+<p>Use these fictional suggestion cards. The letters identify cards, not people:</p>
+<blockquote>
+<p><strong>A:</strong> A quiet drawing session. <strong>B:</strong> A beginner bicycle-care demonstration. <strong>C:</strong> Drawing with large-print instructions. <strong>D:</strong> A conversation about repairing clothes.</p>
+</blockquote>
+<p>An invented assistant response groups B and D as “practical skills” and drops A and C as “less useful.” It proposes emailing participants to announce that decision.</p>
+<ol>
+<li>Explain two ways the response goes beyond the brief.</li>
+<li>Propose a grouping that retains all four ideas.</li>
+<li>Name a question the organiser should settle before choosing activities.</li>
+<li>State one condition that would make you pause this use of AI.</li>
+</ol>
+<details class="answer" id="lesson-7-compare-your-reasoning"><summary>Compare your reasoning</summary><div class="answer-body"><p>The response ranks and drops suggestions without authority, and proposes sending an announcement. One grouping is “drawing: A and C” and “repair and care: B and D.” Keep the quiet setting and large-print request visible rather than flattening them into a generic drawing category.</p>
+<p>The organiser could ask about access needs, available instructors, time and space before choosing. A reasonable pause condition is discovering that important requests keep disappearing, that review is impractical or that the information is not approved for the tool. Different groupings can work if they preserve the meaning.</p>
+</div></details>
+<h3 id="lesson-7-try-a-different-situation">Try a different situation</h3>
+<p>The centre now asks the tool to select six people for a limited workshop from twelve applicants. It proposes using how polished each application sounds. The information is approved for the tool, and a staff member is available to check.</p>
+<p>Do those two facts settle whether the selection method is appropriate? What needs deciding first?</p>
+<details class="answer" id="lesson-7-compare-your-reasoning-1"><summary>Compare your reasoning</summary><div class="answer-body"><p>No. The purpose and allocation criteria need agreement. Polished writing may be unrelated to who the workshop is intended to serve and may reflect different language or support opportunities. Ask what a fair allocation should consider, how the reviewer can question the result and how applicants can seek a correction. A transparent non-AI method may be suitable. Permission to process information does not settle whether a decision rule is reasonable.</p>
+</div></details>
+<h3 id="lesson-7-take-it-with-you">Take it with you</h3>
+<p>Use the <a href="#workbook-my-responsibility-check">responsibility worksheet</a>. Describe the task, necessary information, affected people, review, correction and a reason to pause. You are explaining a practical boundary, not certifying a tool as suitable for every use.</p>
+<p><a href="#lesson-6">Previous: Skills worth developing</a> · <a href="#lesson-8">Next: Your next 30 days</a> · <a href="#overview">Course home</a></p>
+</section><section class="reading-section" id="lesson-8"><div class="section-tag">Lesson 08</div><h2 id="lesson-8-your-next-30-days">Your next 30 days</h2>
+<p><strong>Your choices matter. Learn. Question. Decide.</strong></p>
+<p>Lesson 8 of 8 · Adult beginners · About 35–45 minutes for the final case and plan</p>
+<p><strong>By the end:</strong> you can combine the course's questions into a reasoned proposal, choose a manageable learning goal and decide what to keep or change after practice.</p>
+<p>Thirty days is a convenient planning window. You can stretch it, shorten it or pause. The aim is a useful next step that fits your life.</p>
+<h3 id="lesson-8-begin-with-something-you-care-about">Begin with something you care about</h3>
+<p>Lina wants to explain a workshop update clearly. Arun, a community volunteer, wants to turn a short list of confirmed event details into a useful notice. They have different responsibilities but can practise the same habit.</p>
+<p>“Become excellent at AI” gives neither person a clear next action. “Write a notice that preserves all the supplied facts and marks missing information” is something they can attempt and check.</p>
+<h3 id="lesson-8-learn--choose-a-small-goal" class="step-title">Learn — choose a small goal</h3>
+<p>Start with something you already understand enough to evaluate. Your goal might involve writing, organising information, learning a topic or making something creative.</p>
+<p>Write down:</p>
+<ul>
+<li><strong>The task:</strong> what you want to do.</li>
+<li><strong>The evidence:</strong> what you will check it against.</li>
+<li><strong>The skill:</strong> what you want to remain able to do yourself.</li>
+</ul>
+<p>For Arun: “I will turn supplied event notes into a clear notice, compare every detail with the notes and explain my changes without reopening the sample answer.”</p>
+<p>This course's plan is a practice aid, not a promise about how fast someone learns.</p>
+<h3 id="lesson-8-question--decide-what-would-count-as-progress" class="step-title">Question — decide what would count as progress</h3>
+<p>A polished page can hide mistakes. So can a familiar exercise that you remember. Plan to try a changed example as well as the first one.</p>
+<p>Ask:</p>
+<ol>
+<li>Did I preserve the facts and notice what was missing?</li>
+<li>Can I explain my decisions in my own words?</li>
+<li>Does this help with a task that matters to me?</li>
+<li>What time, support or access do I need?</li>
+</ol>
+<p>Keep only useful learning notes. You can use the supplied invented material throughout.</p>
+<h3 id="lesson-8-decide--make-a-flexible-plan" class="step-title">Decide — make a flexible plan</h3>
+<table>
+<thead>
+<tr>
+<th>When</th>
+<th>Small action</th>
+<th>What to keep</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-label="
+
+When">Days 1–7</td>
+<td data-label="Small action">Try one task yourself and compare it with the supplied facts</td>
+<td data-label="What to keep">A starting example and one question</td>
+</tr>
+<tr>
+<td data-label="
+
+When">Days 8–14</td>
+<td data-label="Small action">Study feedback; revise the task using a person, reference or optional AI assistance</td>
+<td data-label="What to keep">A correction and the reason for it</td>
+</tr>
+<tr>
+<td data-label="
+
+When">Days 15–21</td>
+<td data-label="Small action">Try a different example, then explain your work without the sample</td>
+<td data-label="What to keep">Evidence of what you can now do</td>
+</tr>
+<tr>
+<td data-label="
+
+When">Days 22–30</td>
+<td data-label="Small action">Review usefulness, effort and remaining difficulty</td>
+<td data-label="What to keep">A decision to continue, change, pause or stop</td>
+</tr>
+</tbody>
+</table>
+<p>Choose a pace with room for the rest of your life. If a tool is unavailable, you can compare with the answer guidance or ask a willing supporter. An independent explanation can be spoken or written.</p>
+<h3 id="lesson-8-worked-plan--aruns-event-notice">Worked plan — Arun's event notice</h3>
+<p>Arun chooses two short practice sessions each week. The number is his preference, not a requirement.</p>
+<p>His starting attempt includes a booking claim that the notes do not support. He marks it and asks, “How can I make unknown details clear?” After studying an example, he replaces the claim with a question for the organiser.</p>
+<p>Later, he writes from a different fact card without looking at the earlier answer. He checks the date, time, place, cost and missing information. At the end of the month, he decides whether this practice has made his notices easier to check.</p>
+<p>If he keeps making the same mistake, he can narrow the task to separating known and unknown details. That is useful information for choosing the next practice.</p>
+<h3 id="lesson-8-your-turn--build-and-test-your-plan">Your turn — build and test your plan</h3>
+<p>Complete the <a href="#workbook-my-next-30-days">30-day worksheet</a>. Name a task, one check, a source of help, a fresh example and a reason you might change course.</p>
+<p>Then try this fictional starting task:</p>
+<blockquote>
+<p>Riverside reading circle: 18 August, 14:00–14:45, Oak Room. Bring one book. Entry is free. The organiser has not supplied booking information.</p>
+</blockquote>
+<p>Write a two-sentence notice. Keep missing booking information visible. Compare your draft before reading the example.</p>
+<details class="answer" id="lesson-8-compare-your-reasoning"><summary>Compare your reasoning</summary><div class="answer-body"><p>One answer: “Join the free Riverside reading circle on 18 August, 14:00–14:45, in Oak Room and bring one book. Booking information is still to be confirmed.”</p>
+<p>Check the five supplied details and the unresolved booking question. Different wording works if it preserves them. In a real announcement, a year and full location may also be needed.</p>
+</div></details>
+<h3 id="lesson-8-try-a-different-situation">Try a different situation</h3>
+<p>The organiser now confirms: “Book in advance; the meeting moves to Pine Room and starts at 15:00. The date, free entry and book instruction stay the same.” No revised finish time is given.</p>
+<p>Write an updated notice. What new uncertainty should you notice?</p>
+<details class="answer" id="lesson-8-compare-your-reasoning-1"><summary>Compare your reasoning</summary><div class="answer-body"><p>Use 18 August, 15:00, Pine Room, free entry, bring one book, and advance booking. The finish time is now unconfirmed: do not automatically keep 14:45 or invent 15:45.</p>
+<p>One answer: “Join the free Riverside reading circle on 18 August at 15:00 in Pine Room; book in advance and bring one book. The finish time is still to be confirmed.”</p>
+<p>This changed example checks whether you reconsider the facts when conditions change.</p>
+</div></details>
+<h3 id="lesson-8-bring-the-course-together">Bring the course together</h3>
+<p>Use this final fictional case. It brings together a useful task, a shared service and a learning goal:</p>
+<blockquote>
+<p>Riverside wants to use AI to group suggestions for new community classes. Staff spend about two hours each week grouping them manually. Suggestions arrive through an app and on paper. The centre has not measured the time needed to check AI groupings. Some suggestions include personal details and access needs. The organiser proposes trying the idea before making a long-term decision.</p>
+</blockquote>
+<p>Prepare a short proposal using the <a href="#workbook-bringing-it-together">final worksheet</a>. You can write six sentences or explain them aloud:</p>
+<ol>
+<li>Name one useful task to try and a clear boundary.</li>
+<li>Describe information suitable for the first practice.</li>
+<li>Identify a possible benefit and a burden to examine.</li>
+<li>Name a perspective that should be included.</li>
+<li>Propose a fair comparison and a skill someone could practise.</li>
+<li>State a review point and evidence that could change your recommendation.</li>
+</ol>
+<p>There is no requirement to recommend AI. Give reasons for your proposal before opening the example.</p>
+<details class="answer" id="lesson-8-compare-your-reasoning-2"><summary>Compare your reasoning</summary><div class="answer-body"><p>One proposal is: “Try grouping invented suggestions while keeping every suggestion visible; do not choose classes or send announcements. Practise on fictional cards before deciding how actual information may be handled. A possible benefit is easier sorting, but missing requests and checking time need examination. Include people who use paper and staff who arrange accessible activities. Compare manual and assisted grouping on the same invented set, counting checking and corrections as well as drafting, and practise explaining the categories. Review after two small practice sessions; pause or revise if important requests disappear or the effort is not worthwhile.”</p>
+<p>The review point is an editorial choice for this example. An equally reasonable proposal could improve the manual process first, or postpone the experiment until review time is available. Support your choice with the supplied facts and make uncertainties explicit. A successful fictional exercise alone would not justify deployment with actual participant information.</p>
+</div></details>
+<h3 id="lesson-8-your-final-choice">Your final choice</h3>
+<p>Finish your plan with: “I will try ___ because ___. I will check ___ on ___. If ___, I will change ___.”</p>
+<p>You decide what is useful enough to continue. Learning may lead you to use AI, use it differently, ask for better support or choose another method. The point is greater understanding and a choice you can explain.</p>
+<p><strong>Your choices matter. Learn. Question. Decide.</strong></p>
+<p><a href="#lesson-7">Previous: Responsibility and choice</a> · <a href="#workbook">Worksheets</a> · <a href="#overview">Course home</a></p>
+</section><section class="reading-section" id="workbook"><div class="section-tag">Your workbook</div><h2 id="workbook-your-choice-workbook">Your choice workbook</h2>
+<p><a href="#overview">Course home</a></p>
+<p><strong>Your choices matter. Learn. Question. Decide.</strong></p>
+<p>Use paper, a local document or a conversation with a willing supporter. Keep your notes for yourself. The supplied fictional stories are enough for every activity.</p>
+<h3 id="workbook-my-choice">My choice</h3>
+<p>For <a href="#lesson-1">lesson 1</a>.</p>
+<table>
+<thead>
+<tr>
+<th>Learn</th>
+<th>Your notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-label="
+
+Learn">What am I trying to do?</td>
+<td data-label="Your notes"></td>
+</tr>
+<tr>
+<td data-label="
+
+Learn">Which facts have I been given?</td>
+<td data-label="Your notes"></td>
+</tr>
+<tr>
+<td data-label="
+
+Learn">What could a tool or another person help with?</td>
+<td data-label="Your notes"></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Question</th>
+<th>Your notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-label="
+
+Question">What supports the answer?</td>
+<td data-label="Your notes"></td>
+</tr>
+<tr>
+<td data-label="
+
+Question">What is missing or contradicted?</td>
+<td data-label="Your notes"></td>
+</tr>
+<tr>
+<td data-label="
+
+Question">Who could be affected?</td>
+<td data-label="Your notes"></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Decide</th>
+<th>Your notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-label="
+
+Decide">What will I do, and why?</td>
+<td data-label="Your notes"></td>
+</tr>
+<tr>
+<td data-label="
+
+Decide">What needs checking or clarification first?</td>
+<td data-label="Your notes"></td>
+</tr>
+<tr>
+<td data-label="
+
+Decide">What new information could change my choice?</td>
+<td data-label="Your notes"></td>
+</tr>
+</tbody>
+</table>
+<h3 id="workbook-my-task-brief">My task brief</h3>
+<p>For <a href="#lesson-2">lesson 2</a>.</p>
+<table>
+<thead>
+<tr>
+<th>Part</th>
+<th>My notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-label="
+
+Part">Purpose and people</td>
+<td data-label="My notes"></td>
+</tr>
+<tr>
+<td data-label="
+
+Part">Supplied information</td>
+<td data-label="My notes"></td>
+</tr>
+<tr>
+<td data-label="
+
+Part">Boundaries and materials</td>
+<td data-label="My notes"></td>
+</tr>
+<tr>
+<td data-label="
+
+Part">Desired result</td>
+<td data-label="My notes"></td>
+</tr>
+<tr>
+<td data-label="
+
+Part">How I will check it</td>
+<td data-label="My notes"></td>
+</tr>
+<tr>
+<td data-label="
+
+Part">What changed after feedback?</td>
+<td data-label="My notes"></td>
+</tr>
+</tbody>
+</table>
+<h3 id="workbook-my-evidence-check">My evidence check</h3>
+<p>For <a href="#lesson-3">lesson 3</a>.</p>
+<table>
+<thead>
+<tr>
+<th>Question</th>
+<th>My notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-label="
+
+Question">What exactly is the claim?</td>
+<td data-label="My notes"></td>
+</tr>
+<tr>
+<td data-label="
+
+Question">Where did it originate, and when?</td>
+<td data-label="My notes"></td>
+</tr>
+<tr>
+<td data-label="
+
+Question">What does the source actually support?</td>
+<td data-label="My notes"></td>
+</tr>
+<tr>
+<td data-label="
+
+Question">Are later reports independent or repeating it?</td>
+<td data-label="My notes"></td>
+</tr>
+<tr>
+<td data-label="
+
+Question">What remains uncertain?</td>
+<td data-label="My notes"></td>
+</tr>
+<tr>
+<td data-label="
+
+Question">What will I say or do now?</td>
+<td data-label="My notes"></td>
+</tr>
+</tbody>
+</table>
+<h3 id="workbook-my-work-and-skills">My work and skills</h3>
+<p>For <a href="#lesson-4">lesson 4</a>. Use the invented repair shop, volunteering or another role you understand. Leave private workplace details out.</p>
+<table>
+<thead>
+<tr>
+<th>Task</th>
+<th>Assistance to explore</th>
+<th>Skill I will practise</th>
+<th>How I will check it</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-label="
+
+Task"></td>
+<td data-label="Assistance to explore"></td>
+<td data-label="Skill I will practise"></td>
+<td data-label="How I will check it"></td>
+</tr>
+<tr>
+<td data-label="
+
+Task"></td>
+<td data-label="Assistance to explore"></td>
+<td data-label="Skill I will practise"></td>
+<td data-label="How I will check it"></td>
+</tr>
+<tr>
+<td data-label="
+
+Task"></td>
+<td data-label="Assistance to explore"></td>
+<td data-label="Skill I will practise"></td>
+<td data-label="How I will check it"></td>
+</tr>
+</tbody>
+</table>
+<p><strong>A question for the people organising this work:</strong> ____________________</p>
+<p><strong>Who might benefit, and who might face extra work or barriers?</strong> ____________________</p>
+<p><strong>One change that could make the arrangement better:</strong> ____________________</p>
+<h3 id="workbook-our-shared-choice">Our shared choice</h3>
+<p>For <a href="#lesson-5">lesson 5</a>.</p>
+<table>
+<thead>
+<tr>
+<th>Question</th>
+<th>My notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-label="
+
+Question">What shared service or decision are we considering?</td>
+<td data-label="My notes"></td>
+</tr>
+<tr>
+<td data-label="
+
+Question">Who might benefit?</td>
+<td data-label="My notes"></td>
+</tr>
+<tr>
+<td data-label="
+
+Question">Who might be missing or face extra burdens?</td>
+<td data-label="My notes"></td>
+</tr>
+<tr>
+<td data-label="
+
+Question">What does the evidence measure—and leave out?</td>
+<td data-label="My notes"></td>
+</tr>
+<tr>
+<td data-label="
+
+Question">Which values or trade-offs need discussion?</td>
+<td data-label="My notes"></td>
+</tr>
+<tr>
+<td data-label="
+
+Question">What change or alternative do I propose?</td>
+<td data-label="My notes"></td>
+</tr>
+<tr>
+<td data-label="
+
+Question">Who can decide, explain and correct it?</td>
+<td data-label="My notes"></td>
+</tr>
+<tr>
+<td data-label="
+
+Question">What evidence could change my view?</td>
+<td data-label="My notes"></td>
+</tr>
+</tbody>
+</table>
+<h3 id="workbook-my-skill-practice">My skill practice</h3>
+<p>For <a href="#lesson-6">lesson 6</a>.</p>
+<table>
+<thead>
+<tr>
+<th>Step</th>
+<th>My notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-label="
+
+Step">A skill useful to me</td>
+<td data-label="My notes"></td>
+</tr>
+<tr>
+<td data-label="
+
+Step">My first attempt</td>
+<td data-label="My notes"></td>
+</tr>
+<tr>
+<td data-label="
+
+Step">Help or feedback I used</td>
+<td data-label="My notes"></td>
+</tr>
+<tr>
+<td data-label="
+
+Step">What I can explain in my own words</td>
+<td data-label="My notes"></td>
+</tr>
+<tr>
+<td data-label="
+
+Step">A changed example to try</td>
+<td data-label="My notes"></td>
+</tr>
+<tr>
+<td data-label="
+
+Step">What I noticed and will practise next</td>
+<td data-label="My notes"></td>
+</tr>
+</tbody>
+</table>
+<h3 id="workbook-my-responsibility-check">My responsibility check</h3>
+<p>For <a href="#lesson-7">lesson 7</a>.</p>
+<table>
+<thead>
+<tr>
+<th>Question</th>
+<th>My notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-label="
+
+Question">What is the exact task?</td>
+<td data-label="My notes"></td>
+</tr>
+<tr>
+<td data-label="
+
+Question">What information is necessary and permitted?</td>
+<td data-label="My notes"></td>
+</tr>
+<tr>
+<td data-label="
+
+Question">Who could be affected or should have a say?</td>
+<td data-label="My notes"></td>
+</tr>
+<tr>
+<td data-label="
+
+Question">What actions are allowed?</td>
+<td data-label="My notes"></td>
+</tr>
+<tr>
+<td data-label="
+
+Question">Who can review, change or stop the result?</td>
+<td data-label="My notes"></td>
+</tr>
+<tr>
+<td data-label="
+
+Question">How can a mistake be corrected?</td>
+<td data-label="My notes"></td>
+</tr>
+<tr>
+<td data-label="
+
+Question">What would make me pause or choose another method?</td>
+<td data-label="My notes"></td>
+</tr>
+</tbody>
+</table>
+<h3 id="workbook-my-next-30-days">My next 30 days</h3>
+<p>For <a href="#lesson-8">lesson 8</a>.</p>
+<p><strong>My goal:</strong> ____________________</p>
+<p><strong>The skill I want to keep independently:</strong> ____________________</p>
+<p><strong>The facts, reference or person that can help me check:</strong> ____________________</p>
+<table>
+<thead>
+<tr>
+<th>Stage</th>
+<th>My small action</th>
+<th>Evidence I will look for</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-label="
+
+Stage">Learn: try a starting task</td>
+<td data-label="My small action"></td>
+<td data-label="Evidence I will look for"></td>
+</tr>
+<tr>
+<td data-label="
+
+Stage">Question: examine and revise</td>
+<td data-label="My small action"></td>
+<td data-label="Evidence I will look for"></td>
+</tr>
+<tr>
+<td data-label="
+
+Stage">Learn again: try a changed example</td>
+<td data-label="My small action"></td>
+<td data-label="Evidence I will look for"></td>
+</tr>
+<tr>
+<td data-label="
+
+Stage">Decide: review what helped</td>
+<td data-label="My small action"></td>
+<td data-label="Evidence I will look for"></td>
+</tr>
+</tbody>
+</table>
+<p><strong>If access, time or support changes, my alternative is:</strong> ____________________</p>
+<p><strong>My review date or occasion:</strong> ____________________</p>
+<p><strong>My decision:</strong> continue / change / pause / stop</p>
+<p><strong>My reason:</strong> ____________________</p>
+<p><strong>Something I can now explain without the sample:</strong> ____________________</p>
+<p>Changing a plan after learning something new is part of making a thoughtful choice.</p>
+<h3 id="workbook-bringing-it-together">Bringing it together</h3>
+<p>For the final case in <a href="#lesson-8">lesson 8</a>.</p>
+<table>
+<thead>
+<tr>
+<th>My proposal</th>
+<th>My notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-label="
+
+My proposal">One useful task to try</td>
+<td data-label="My notes"></td>
+</tr>
+<tr>
+<td data-label="
+
+My proposal">Information and clear boundaries</td>
+<td data-label="My notes"></td>
+</tr>
+<tr>
+<td data-label="
+
+My proposal">A benefit and a burden to examine</td>
+<td data-label="My notes"></td>
+</tr>
+<tr>
+<td data-label="
+
+My proposal">A missing perspective or shared question</td>
+<td data-label="My notes"></td>
+</tr>
+<tr>
+<td data-label="
+
+My proposal">A fair comparison and a skill to practise</td>
+<td data-label="My notes"></td>
+</tr>
+<tr>
+<td data-label="
+
+My proposal">A review point and a reason to change course</td>
+<td data-label="My notes"></td>
+</tr>
+</tbody>
+</table>
+<p>Finish aloud or in writing: “I recommend ___ because ___. I would change this recommendation if ___.”</p>
+</section><section class="reading-section" id="glossary"><div class="section-tag">Words and meanings</div><h2 id="glossary-words-used-in-this-course">Words used in this course</h2>
+<p><a href="#overview">Course home</a></p>
+<p>These are plain-language teaching explanations. Return to a lesson for an example; you do not need to memorise the list.</p>
+<table>
+<thead>
+<tr>
+<th>Word</th>
+<th>Meaning here</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-label="
+
+Word">AI</td>
+<td data-label="Meaning here">Computer systems that use inputs to produce outputs such as predictions, recommendations or generated content</td>
+</tr>
+<tr>
+<td data-label="
+
+Word">Generative AI</td>
+<td data-label="Meaning here">AI that can produce content such as words or pictures</td>
+</tr>
+<tr>
+<td data-label="
+
+Word">Prompt</td>
+<td data-label="Meaning here">An instruction or question given to an AI system</td>
+</tr>
+<tr>
+<td data-label="
+
+Word">Task brief</td>
+<td data-label="Meaning here">The purpose, supplied information, boundaries, desired result and checks for a task</td>
+</tr>
+<tr>
+<td data-label="
+
+Word">Evidence</td>
+<td data-label="Meaning here">Information used to support or challenge a particular claim</td>
+</tr>
+<tr>
+<td data-label="
+
+Word">Source</td>
+<td data-label="Meaning here">Where information came from; examine its context and support as well as its identity</td>
+</tr>
+<tr>
+<td data-label="
+
+Word">Independent confirmation</td>
+<td data-label="Meaning here">Support that does not merely repeat the same original claim</td>
+</tr>
+<tr>
+<td data-label="
+
+Word">Uncertainty</td>
+<td data-label="Meaning here">Something not established or not known with enough confidence for the decision</td>
+</tr>
+<tr>
+<td data-label="
+
+Word">Scenario</td>
+<td data-label="Meaning here">A possible situation used to explore choices; it is not a prediction that it will happen</td>
+</tr>
+<tr>
+<td data-label="
+
+Word">Task exposure</td>
+<td data-label="Meaning here">The possibility that a task could be affected by a technology's capabilities; not a prediction of job loss</td>
+</tr>
+<tr>
+<td data-label="
+
+Word">Representation</td>
+<td data-label="Meaning here">Whose experiences or responses appear in information, and whose are missing</td>
+</tr>
+<tr>
+<td data-label="
+
+Word">Trade-off</td>
+<td data-label="Meaning here">A choice where improving one thing may involve giving up or changing another</td>
+</tr>
+<tr>
+<td data-label="
+
+Word">Mean or average</td>
+<td data-label="Meaning here">A total divided by the number of items included; always explain which items count</td>
+</tr>
+<tr>
+<td data-label="
+
+Word">Accountability</td>
+<td data-label="Meaning here">A practical arrangement for explaining decisions, taking responsibility and addressing problems</td>
+</tr>
+<tr>
+<td data-label="
+
+Word">Human review</td>
+<td data-label="Meaning here">A person examines the work with the knowledge, time and authority needed to question or change it</td>
+</tr>
+<tr>
+<td data-label="
+
+Word">Transfer task</td>
+<td data-label="Meaning here">A changed example that checks whether you can use an idea beyond the sample</td>
+</tr>
+</tbody>
+</table>
+<p><a href="#sources">Sources and editorial notes</a> explain the research foundations and the limits of these simplified definitions.</p>
+</section><section class="reading-section" id="sources"><div class="section-tag">Sources and edition</div><h2 id="sources-sources-and-editorial-notes">Sources and editorial notes</h2>
+<p>Review date: 6 October 2026. <a href="#overview">Course home</a></p>
+<h3 id="sources-existing-educational-foundation">Existing educational foundation</h3>
+<p>This course develops the task selection, checking, independent practice and conditional-futures approach in <a href="https://github.com/Green-Web-Land/AI-Introduction">AI Introduction</a>, by Massoud Fattahi. Existing adult-course snapshot reviewed: 6c4f0ae874b62ae99d1cf1dde9ee3dbb9b8aca83.</p>
+<p>Related original lessons: <a href="https://github.com/Green-Web-Land/AI-Introduction/blob/6c4f0ae874b62ae99d1cf1dde9ee3dbb9b8aca83/courses/adults/lessons/03-clear-instructions.md">clear instructions</a>, <a href="https://github.com/Green-Web-Land/AI-Introduction/blob/6c4f0ae874b62ae99d1cf1dde9ee3dbb9b8aca83/courses/adults/lessons/04-check-results.md">checking results</a>, <a href="https://github.com/Green-Web-Land/AI-Introduction/blob/6c4f0ae874b62ae99d1cf1dde9ee3dbb9b8aca83/courses/adults/lessons/07-learning-growth.md">learning and growth</a>, and <a href="https://github.com/Green-Web-Land/AI-Introduction/blob/6c4f0ae874b62ae99d1cf1dde9ee3dbb9b8aca83/courses/adults/lessons/08-prediction.md">future scenarios</a>.</p>
+<p>“Your choices matter. Learn. Question. Decide.” is the central message and teaching sequence. The course connects individual learning with decisions about work and shared services.</p>
+<h3 id="sources-claim-and-source-record">Claim and source record</h3>
+<table>
+<thead>
+<tr>
+<th>Claim or material</th>
+<th>Source</th>
+<th>Scope</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-label="
+
+Claim or material">Generative systems can present false content confidently</td>
+<td data-label="Source"><a href="https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf">NIST AI 600-1, July 2024, section 2.2</a></td>
+<td data-label="Scope">Supports checking important claims; no evaluation of this course or a specific tool</td>
+</tr>
+<tr>
+<td data-label="
+
+Claim or material">Work can be examined at the level of tasks within occupations</td>
+<td data-label="Source"><a href="https://www.ilo.org/publications/generative-ai-and-jobs-refined-global-index-occupational-exposure">ILO Working Paper 140, 20 May 2025</a></td>
+<td data-label="Scope">Supports the task-based framing; the shop map is our illustration, not an ILO occupational assessment</td>
+</tr>
+<tr>
+<td data-label="
+
+Claim or material">Exposure measures alone do not predict actual job losses</td>
+<td data-label="Source"><a href="https://www.ilo.org/resource/news/new-ilo-brief-explains-what-ai-exposure-indicators-reveal-about-jobs">ILO, 17 April 2026</a></td>
+<td data-label="Scope">Adoption, feasibility and wider conditions affect outcomes; no personal job forecast follows</td>
+</tr>
+<tr>
+<td data-label="
+
+Claim or material">Plain introductory AI definition</td>
+<td data-label="Source"><a href="https://www.oecd.org/en/publications/explanatory-memorandum-on-the-updated-oecd-definition-of-an-ai-system_623da898-en.html">OECD explanatory memorandum, 2024</a>, also used in the existing adult course</td>
+<td data-label="Scope">Simplified teaching explanation; not a legal classification</td>
+</tr>
+<tr>
+<td data-label="
+
+Claim or material">Trustworthiness involves context, organisations, privacy, accountability and reliable performance</td>
+<td data-label="Source"><a href="https://airc.nist.gov/airmf-resources/airmf/3-sec-characteristics/">NIST AI RMF 1.0, 2023, section 3</a></td>
+<td data-label="Scope">Background for lessons 5 and 7; the page notes a revision is in progress, and this course cites the identified 1.0 text</td>
+</tr>
+<tr>
+<td data-label="
+
+Claim or material">AI ethics includes fairness, human oversight, inclusion and environmental concerns</td>
+<td data-label="Source"><a href="https://www.unesco.org/en/artificial-intelligence/recommendation-ethics">UNESCO Recommendation on the Ethics of AI, adopted 2021</a></td>
+<td data-label="Scope">Broad educational framing for lesson 5; not a statement of a particular jurisdiction's law</td>
+</tr>
+</tbody>
+</table>
+<p>All stories, notices, work maps, timings, answer keys and possible organisational choices are invented teaching material, drafted with AI assistance and checked during authoring. They are not measured AI outputs or results from a real workplace.</p>
+<h3 id="sources-teaching-choices-and-limits">Teaching choices and limits</h3>
+<p>The Learn–Question–Decide sequence, practice cycle, 30-day plan, final case and completion-time estimates are editorial choices. Learner effectiveness and reading-level suitability have not yet been tested. The facilitator guide proposes a review method.</p>
+<p>No income, employment, productivity or learning gain is promised. The selected ILO sources do not establish those outcomes for an individual. Linked third-party content retains its own terms.</p>
+<h3 id="sources-assets-and-versions">Assets and versions</h3>
+<p>The visual preview uses original HTML/CSS composition and live-text sequences made for this course; no third-party photograph, icon library or remote font is included. Teaching text remains in Markdown. Edition: full adult course 0.2, published 6 October 2026.</p>
+<h3 id="sources-keeping-the-material-current">Keeping the material current</h3>
+<p>When revising an edition, recheck dated claims against the identified official sources and distinguish a changed source from a changed interpretation. Review examples when a reader reports a misleading assumption or unclear answer. Keep the edition, source record, Markdown and generated reading/print copies together. Do not describe a revised edition as learner-tested without evidence from that edition.</p>
+<p><a href="#reuse">Reuse notice</a></p>
+</section><section class="reading-section" id="reuse"><div class="section-tag">Reuse</div><h2 id="reuse-educational-content-licence">Educational content licence</h2>
+<p>Massoud Fattahi licenses the original educational material in this repository under <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</a>, to the extent he holds the rights to license it. The <a href="https://creativecommons.org/licenses/by/4.0/legalcode.en">full legal code</a> controls.</p>
+<p>This covers the lessons, exercises, authored examples, glossary and original supporting documentation, except material explicitly identified otherwise. Linked third-party sources retain their own terms; linking does not relicense their contents. This notice does not license WebAI software or grant trademark rights.</p>
+<p>Commercial reuse, redistribution and adaptation, including translation, are permitted without a licence fee, subject to CC BY 4.0. Retain required credit and notices, link the licence and identify modifications. Do not imply endorsement or impose restrictions that prevent recipients exercising the licensed rights. The licence includes disclaimers and limitations; it is not a guarantee of accuracy or suitability.</p>
+<p>Suggested attribution: “AI Introduction — Massoud Fattahi. Source: https://github.com/Green-Web-Land/AI-Introduction. CC BY 4.0: https://creativecommons.org/licenses/by/4.0/. Changes: [describe changes, if any].” Retain supplied notices as applicable.</p>
+<p>The project's internal review and public-release process governs its own publications. It is not an additional restriction on recipients' CC BY 4.0 rights. Private repository access does not itself become public through this notice.</p>
+</section></div>
+</div></main>
+<footer class="footer"><p><strong>Your choices matter. Learn. Question. Decide.</strong></p>
+<p>Living and Working with AI · Massoud Fattahi / Green Web Land · Full adult course 0.2<br>
+<a href="#reuse">CC BY 4.0 educational content and exceptions</a> · <a href="#sources">Sources and editorial notes</a></p>
+<p>Published for learning and feedback. Learner effectiveness has not yet been tested.</p></footer>
+<script>
+(() => {
+ const answers = [...document.querySelectorAll('details.answer')];
+ let previous = null;
+ const expand = () => { if (previous === null) previous = answers.map(x => x.open); answers.forEach(x => x.open = true); };
+ const restore = () => { if (previous === null) return; answers.forEach((x,i) => x.open = previous[i]); previous = null; };
+ document.getElementById('print').addEventListener('click', () => window.print());
+ window.addEventListener('beforeprint', expand);
+ window.addEventListener('afterprint', restore);
+})();
+</script></body></html>
