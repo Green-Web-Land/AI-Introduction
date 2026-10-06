@@ -41,6 +41,6 @@ The eight-lesson route can be split over several sessions. A brief first session
 
 Correct wrong answers, unclear task facts or inaccessible essentials before publication. Repeated misunderstandings may indicate missing explanations. Add those explanations and review them again. Useful feedback can also suggest a more relevant example or a shorter route.
 
-A small trial can reveal problems; it cannot establish employment outcomes, long-term learning benefits or suitability for every adult. Author checks, independent review, learner observations, owner acceptance and publication should remain separately described.
+A small trial can reveal problems; it cannot establish employment outcomes, long-term learning benefits or suitability for every adult. When sharing findings, describe what participants tried, what you observed and the limits of those observations.
 
-Edition 0.2 is published for learning and feedback. Learner effectiveness has not yet been tested; keep that limitation clear when describing the course.
+Edition 0.2.1 is published for learning and feedback. Learner effectiveness has not yet been tested; keep that limitation clear when describing the course.

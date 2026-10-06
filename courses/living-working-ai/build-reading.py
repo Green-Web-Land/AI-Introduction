@@ -144,7 +144,7 @@ document = """<!doctype html>
 <title>Your choices matter — Living and Working with AI</title>
 <style>""" + css + """</style></head><body>
 <a class="skip" href="#lesson-1">Skip to the first lesson</a>
-<header class="masthead"><span class="brand">Green Web Land · Learning</span><span class="edition">Full course · Edition 0.2</span></header>
+<header class="masthead"><span class="brand">Green Web Land · Learning</span><span class="edition">Full course · Edition 0.2.1</span></header>
 <main>
 <section class="hero" id="overview" aria-labelledby="welcome">
  <div><p class="eyebrow">Living and Working with AI</p>
@@ -179,7 +179,7 @@ document = """<!doctype html>
  <div class="content">""" + "".join(sections) + """</div>
 </div></main>
 <footer class="footer"><p><strong>Your choices matter. Learn. Question. Decide.</strong></p>
-<p>Living and Working with AI · Massoud Fattahi / Green Web Land · Full adult course 0.2<br>
+<p>Living and Working with AI · Massoud Fattahi / Green Web Land · Full adult course 0.2.1<br>
 <a href="#reuse">CC BY 4.0 educational content and exceptions</a> · <a href="#sources">Sources and editorial notes</a></p>
 <p>Published for learning and feedback. Learner effectiveness has not yet been tested.</p></footer>
 <script>

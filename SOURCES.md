@@ -2,17 +2,17 @@
 
 [Home](README.md)
 
-Source check: 2026-09-11. This is the source record for the first draft edition. General guidance and authored examples are not empirical proof of learning outcomes.
+Source check: 2026-09-11. This is the source record for the first edition. General guidance and authored examples are not empirical proof of learning outcomes.
 
 ## Universal Principles chapter
 
-AIE-09 records the eleven project principles and central statement expressly approved by Massoud on 2026-09-11. They are normative editorial proposals, not attributed to a regulator or presented as universally adopted law. Examples, exercise and answer guidance are fictional material drafted with AI assistance. General category distinctions do not determine legal applicability or certify technical controls. No jurisdiction-specific legal requirements, product policy or verified deployment behaviour are asserted in this chapter. Specific legal or service claims added later require current authoritative evidence and affected review.
+AIE-09 presents eleven principles and a central statement about human capability, choice and responsibility. They are normative editorial proposals, not attributed to a regulator or presented as universally adopted law. Examples, exercise and answer guidance are fictional material drafted with AI assistance. General category distinctions do not determine legal applicability or certify technical controls. No jurisdiction-specific legal requirements, product policy or verified deployment behaviour are asserted in this chapter. The chapter does not determine the rules of any particular jurisdiction or service.
 
 | Material | Source / provenance | Use and limits |
 |---|---|---|
 | Confident but false generative output | NIST, Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile, NIST AI 600-1, July 2024, [section 2.2](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf) | Supports the limited error-risk statement in AIE-03. No certification, endorsement or mandatory-standard claim. |
 | Five-question request aid, invitations, practice facts and answer guidance | Newly drafted for this project with AI assistance | Original instructional examples; fictional events and venues. Possible answers are authored illustrations, not experimental outputs. Effectiveness has not been established through learner testing. |
-| Curriculum sequence and timing | Editorial proposal based on the owner's educational purpose | Timing is estimated. Timing and instructional effectiveness have not been measured with learners. |
+| Curriculum sequence and timing | Course design and estimated lesson timings | Timing is estimated. Timing and instructional effectiveness have not been measured with learners. |
 
 No external images, copied software screenshots, customer records or executable demonstrations are included. References link to their publishers; linked material retains its own terms. Original educational material is licensed under [CC BY 4.0](LICENSE.md); linked third-party material retains its own terms.
 

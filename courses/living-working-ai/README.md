@@ -43,4 +43,4 @@ Read the lesson pages above, open the [offline reading edition](reading/index.ht
 
 For educators and editors: [teaching and visual template](LESSON-TEMPLATE.md), [facilitator guide](FACILITATOR-GUIDE.md) and [edition maintenance](MAINTENANCE.md).
 
-Edition 0.2 · 6 October 2026. All eight lessons are included. Published for learning and feedback; learner effectiveness has not yet been tested.
+Edition 0.2.1 · 6 October 2026. All eight lessons are included. Published for learning and feedback; learner effectiveness has not yet been tested.
