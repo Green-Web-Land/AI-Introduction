@@ -2,7 +2,7 @@
 
 [Home](../README.md) · [Curriculum](../CURRICULUM.md)
 
-Lesson AIE-09 · Foundation chapter · Draft · 2026-09-11
+Lesson AIE-09 · Foundation chapter · 2026-09-11
 
 **Your goal:** turn a proposed principle into a practical responsibility and a check you can perform.
 

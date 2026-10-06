@@ -57,8 +57,10 @@ You may copy, share, redistribute, translate and adapt this material, including 
 
 Linked third-party sources and separately identified material retain their own terms. This notice does not license WebAI software or grant trademark rights. No guarantee of accuracy or suitability is provided; the [full CC BY 4.0 legal code](https://creativecommons.org/licenses/by/4.0/legalcode.en) controls.
 
-Suggested credit: “AI Introduction — Massoud Fattahi, Canada. Source: https://github.com/Green-Web-Land/AI-Introduction. CC BY 4.0. Changes: [describe any changes].” Include the licence link and retain any additional supplied attribution.
+Suggested credit: “AI Introduction — Massoud Fattahi, Canada. [Source](https://github.com/Green-Web-Land/AI-Introduction). [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).”
 
-The same reuse terms apply across the educational courses. Course licence files remain with copied course folders so the notices travel with the material. Our internal approval process adds no restriction to recipients' CC BY 4.0 rights.
+If you adapt the material, identify your changes alongside the credit. Retain any additional supplied notices.
+
+The same reuse terms apply across the educational courses. Course licence files remain with copied course folders so the notices travel with the material.
 
 Earlier adult files at the repository root remain available for existing links; the course catalogue above is the current entry point.

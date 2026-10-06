@@ -18,11 +18,11 @@ Our foundation is: **AI should expand human capability while preserving human ch
 
 AI Introduction is an independently usable educational project intended for possible integration into WebAI. Reading the course does not require WebAI. These lessons do not claim that a particular application supports every example.
 
-Developers should inspect private drafts as drafts. Our own public integration requires an approved content revision; do not automatically pull changing drafts into our released products. See the developer integration guide below for version and reuse boundaries.
+For use in another application, copy a specific published revision and preserve its source and licence notices. See the developer integration guide below for navigation, accessibility and offline reading checks.
 
-## Review and reuse
+## Reuse
 
-Original educational content is licensed by Massoud Fattahi under [CC BY 4.0](LICENSE.md), allowing commercial reuse and adaptations with attribution. External sources retain their own terms. Our own publication process requires the designated Audit/legal review of the exact candidate before the owner's final approval; that internal process adds no restriction to recipients' licence rights.
+Original educational content is licensed by Massoud Fattahi under [CC BY 4.0](LICENSE.md), allowing commercial reuse and adaptations with attribution. External sources retain their own terms.
 
 ## Supporting pages
 

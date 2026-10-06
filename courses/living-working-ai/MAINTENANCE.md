@@ -2,7 +2,7 @@
 
 [Course home](README.md)
 
-Edition 0.2, published 6 October 2026. Markdown is the source for the lessons, workbook, glossary, map, source notes and reuse notice. The HTML and PDF are companion formats.
+Edition 0.2.1, published 6 October 2026. Markdown is the source for the lessons, workbook, glossary, map, source notes and reuse notice. The HTML and PDF are companion formats.
 
 ## Rebuild the reading edition
 
@@ -28,4 +28,4 @@ Read the changed examples and answer reasoning. Recheck the sources behind chang
 
 Author checks for this edition covered local references, eight lesson sequences, answer reveals, keyboard navigation, widths from 320 to 1440 CSS pixels and print answers. They do not establish learner effectiveness or full accessibility certification. Use the [facilitator guide](FACILITATOR-GUIDE.md) to plan meaningful reader feedback.
 
-Keep the edition label and [source record](SOURCES.md) current. Preserve links where possible and retain the [reuse notice](LICENSE.md). Repository publication decisions belong to the project owner; the course's CC BY 4.0 reuse rights remain governed by its licence.
+Keep the edition label and [source record](SOURCES.md) current. Preserve links where possible and retain the [reuse notice](LICENSE.md).

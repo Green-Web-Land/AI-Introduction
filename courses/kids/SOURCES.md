@@ -2,7 +2,7 @@
 
 [Home](README.md)
 
-Prepared 2026-09-11. This is an AI-assisted original nine-lesson curriculum for Massoud Fattahi's review. Fictional activities and suggested answers are authored teaching examples, not external quotations or observed model outputs.
+Prepared 2026-09-11. This original nine-lesson curriculum was written with AI assistance. Fictional activities and suggested answers are authored teaching examples, not external quotations or observed model outputs.
 
 ## Adult background
 
@@ -10,10 +10,10 @@ Prepared 2026-09-11. This is an AI-assisted original nine-lesson curriculum for 
 
 The lessons use basic explanatory writing and checkable fictional facts. Their reading level, timing and effectiveness are untested. No claim that children benefit more than adults has been established here. Future scenarios are authored possibilities, not evidence-based timelines or guarantees. No third-party images or child records are included.
 
-## Reuse direction
+## Reuse
 
-The owner's existing free commercial educational reuse direction is implemented in [LICENSE.md](LICENSE.md), with CC BY 4.0, attribution instructions and third-party exceptions. The [Creative Commons deed](https://creativecommons.org/licenses/by/4.0/) was checked on 2026-09-11; the full legal code linked in the licence controls. No licence is applied to linked third-party resources, software or trademarks. Internal publication review adds no restriction to recipients' licensed rights.
+Original educational material is available under [CC BY 4.0](LICENSE.md), including commercial reuse and adaptation with attribution. See the licence notice for scope and third-party exceptions. The [Creative Commons deed](https://creativecommons.org/licenses/by/4.0/) was checked on 2026-09-11; the full legal code linked in the licence controls. No licence is applied to linked third-party resources, software or trademarks.
 
-## Review and evidence limits
+## Evidence limits
 
-The publisher reviews claims, child-facing privacy instructions, age suitability, rights and attribution before publication. Author checks and internal AI legal review are not independent professional legal sign-off or learner validation. The intended age range and effectiveness remain untested.
+The intended age range, reading level and learning effectiveness remain untested. The course is educational material, not a professional qualification or an assessment of a child.

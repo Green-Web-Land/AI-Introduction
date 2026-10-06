@@ -4,7 +4,7 @@
 
 ## Before you begin
 
-Read the sample yourself. Use paper, spoken answers or large text to suit the learner. These materials target ages 9–12 but do not establish suitability for every child. Offer a choice to skip or pause. No score, AI account or child registration is needed.
+Read the lessons yourself before using them with a child. Use paper, spoken answers or large text to suit the learner. These materials target ages 9–12 but do not establish suitability for every child. Offer a choice to skip or pause. No score, AI account or child registration is needed.
 
 Ask “What do you think?” before showing the example answer. Give time to explain. Treat mistakes as clues for the next attempt. A child who spots an error should practise explaining how they know, not simply distrusting everything.
 
@@ -38,4 +38,4 @@ Friendly AI wording is not evidence of care, truth or confidentiality. It must n
 
 This repository is educational text, not a child-facing intake service. Do not ask children to open GitHub accounts, post their answers, contact maintainers or submit identifying examples. Adults can discuss wording with the owner using invented examples; keep children's details and work out of repository issues and review records.
 
-The publisher's release process includes review of the candidate's rights, claims, privacy language and child-facing boundaries. That internal AI review is not professional legal certification or proof of educational effectiveness. Any later learner trial needs a separate plan for consent, safeguarding and data handling.
+The age range, reading level and learning effectiveness have not been tested with children. Preview the activities and adapt the pace and support to the learner. If you organise a learner study, plan consent, safeguarding and data handling before recruiting participants.

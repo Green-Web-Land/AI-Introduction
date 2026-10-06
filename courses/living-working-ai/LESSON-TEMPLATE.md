@@ -36,10 +36,10 @@ Keep instructions concrete. Put a source beside the factual claim it supports. C
 
 ## Variants with a purpose
 
-The cover uses larger display type. Lesson pages use a narrow reading column. Worksheets use wider tables and writing space. The print version adds page breaks between lessons and workbook sections and includes all answer guidance. These are intentional education layouts; they do not alter the WebAI UI standard or application.
+The cover uses larger display type. Lesson pages use a narrow reading column. Worksheets use wider tables and writing space. The print version adds page breaks between lessons and workbook sections and includes all answer guidance.
 
 ## Content and preview relationship
 
-Markdown is the authoritative lesson source. The local preview and printable review copy are generated from it. Correct the source and regenerate both outputs to avoid maintaining separate versions of the teaching text.
+Markdown is the authoritative lesson source. The HTML reading edition and printable PDF are generated from it. Correct the source and regenerate both outputs to avoid maintaining separate versions of the teaching text.
 
 Before publishing a new edition, check learning outcomes, source support, arithmetic, local links, keyboard use, narrow layouts and the printed copy. Describe learner testing separately from these author checks.

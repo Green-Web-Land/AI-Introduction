@@ -2,7 +2,7 @@
 
 [Home](../README.md) · [Curriculum](../CURRICULUM.md)
 
-Lesson AIE-08 · Draft · 2026-09-11
+Lesson AIE-08 · 2026-09-11
 
 **Your goal:** describe a possible future, identify what it depends on and choose a useful action today.
 

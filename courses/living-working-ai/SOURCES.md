@@ -31,7 +31,7 @@ No income, employment, productivity or learning gain is promised. The selected I
 
 ## Assets and versions
 
-The visual preview uses original HTML/CSS composition and live-text sequences made for this course; no third-party photograph, icon library or remote font is included. Teaching text remains in Markdown. Edition: full adult course 0.2, published 6 October 2026.
+The visual preview uses original HTML/CSS composition and live-text sequences made for this course; no third-party photograph, icon library or remote font is included. Teaching text remains in Markdown. Edition: full adult course 0.2.1, published 6 October 2026.
 
 ## Keeping the material current
 

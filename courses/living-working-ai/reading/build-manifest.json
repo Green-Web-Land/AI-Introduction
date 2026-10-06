@@ -1,14 +1,14 @@
 {
   "COURSE-MAP.md": "4f80c353d83a0d051b77fff5db75e21423dca0963bd2fab0cd5e6e1af9d42d4f",
-  "FACILITATOR-GUIDE.md": "2eb208914c21cc42ec7c50d16bebd8efb34e71fb06c70ebb989a996cbb82a067",
+  "FACILITATOR-GUIDE.md": "4c9f07bbd8ce5e23faf8ec91c5391efcbafd53b862c4bd6c364d4cb0856ba396",
   "GLOSSARY.md": "9543f3aa8479023c261c302d7d00734f5cf060883eaddc0dc53cf9d2bad8d35f",
-  "LESSON-TEMPLATE.md": "ed9c807aa4072eb6fa3d371a39eb46cb28123d986c5b6d7f02518abd583a2556",
-  "LICENSE.md": "c86bddb50b8326beab7d522570c8dd3b28ddc7d406218a52d5c170837a793563",
-  "MAINTENANCE.md": "86aa54279ba760a51f8df6493b3eb190f7622b55f961cba82b488b690dccec2f",
-  "README.md": "804e15ebafe01f4b6380c2c7d011b46c9482d142ae464ab412c76ffbdecb7b22",
-  "SOURCES.md": "98ff4982cff3d9e3350c859a4bef522c6160be1dc6748131dfa68a450390a429",
+  "LESSON-TEMPLATE.md": "65ae7246b791d63342fb5dbc58593ea3cb95afc4f10ad008636bc735f46960a7",
+  "LICENSE.md": "b3f687b690e6a755374d8a41e0f236a3ec122dbc2cb28fb2b1f679fa97072448",
+  "MAINTENANCE.md": "8091f0072d64b8227de0f64f9bb01c0cc2006f5a79d57a32717914c95766356f",
+  "README.md": "92c1d09c0960a9a3df63adc0acb3547ba21c7f14ecb3cf272ce62b31deee78af",
+  "SOURCES.md": "d0f844564ebd7d7680da59cd1d78bb9ce4c1ecbeb97e5697f381a6ba397475c8",
   "WORKSHEETS.md": "267bba85a9dacb63604f3dbefa90bc0e30c8a6557703ad32c925c9bfcab79740",
-  "build-reading.py": "0fb1e7403dc4ada7cb8742712cd6b536a2590ea494e0ffc3d78126d2e5927e2b",
+  "build-reading.py": "a2ab1dc6a6e36cf232a70739b825fdbcf77d72b03fb1f013a80fa868868a24b6",
   "lessons/01-everyday-life.md": "742be1d75c87a11c56f5a5f0e39013d79878b2fdc314557dda1611eb4d3c1d6a",
   "lessons/02-working-with-ai.md": "c3157d4bf4b754a11a9c965a0a9246f6d596ad6d7463cbb0633d3b493717d2e9",
   "lessons/03-evidence-and-trust.md": "fae17cda2d538438e28d217e9ba3e712816e04f3224eaed969b9bc26396fc7cd",
@@ -18,5 +18,5 @@
   "lessons/07-responsibility-and-choice.md": "92daa8b413b5ac67ee6dfe7d2f1236d39d62ce0e56e4d29f71f4495624a39882",
   "lessons/08-next-30-days.md": "4970f0e7995e6db3fc270b31c44bdcde8d7b2587c69e32beb82c4ed4a0326f17",
   "preview.css": "583a4310c089a387ed5254ba0d33d2128351ffa033f3af6587551df938b5c9ae",
-  "reading/index.html": "80695d44897a2f68cf7efa98e92b4bf1617ecb209637f0826e55abba7cea6560"
+  "reading/index.html": "568f0753c517573e1444ae28bebb87e2f22ed1aa374d5dee8496620b5199ccad"
 }

@@ -4,8 +4,6 @@
 
 This standalone Markdown course requires no AI backend, account or learner data collection. Copy a reviewed revision with notices, sources, facilitator guidance and answer explanations. Preserve relative links and fictional-example labels.
 
-Do not depend on a changing review branch. A shared concept copied from another edition should record its source revision internally; review changes in each affected course. Do not publish private audit records or repository history as part of a selected content snapshot.
+Pin the source revision and review changes before updating your copy. If you adapt a concept from another edition, record its source and check that its meaning and answer guidance still fit the teenage audience.
 
 Test rendering, keyboard navigation, text resizing and accessible reading order in the actual application. Those checks are separate from document link checks. Adding accounts, chat, analytics, profiles or uploads needs its own privacy, safety and product assessment; the static-content review does not cover those features.
-
-The publisher prepares and reviews a complete course. The designated Audit/legal reviewer first approves the exact candidate, public action and destination. Massoud then gives final approval; unchanged publication and verification follow without another internal approval. This internal process adds no restrictions to recipients' CC BY 4.0 rights.
