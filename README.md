@@ -1,10 +1,18 @@
 # AI Introduction
 
+**Your choices matter. Learn. Question. Decide.**
+
 Learn to use AI well—and remain able to think, choose and act for yourself.
 
 Explore AI through explanations, fictional examples, exercises and answer guidance. Choose a course for your stage of learning or the situation you want to practise. No AI account or WebAI installation is required to complete the supplied activities.
 
-## Available courses
+## Start here: Living and Working with AI
+
+[Living and Working with AI](courses/living-working-ai/README.md) is an eight-lesson course for adult beginners. Explore everyday AI, useful collaboration, evidence, changing work, society, skills and responsible choices. Finish with a flexible learning plan. Each lesson follows **Learn. Question. Decide.** and includes offline practice with explained answers.
+
+Read the [course](courses/living-working-ai/README.md) or use the [print edition](courses/living-working-ai/reading/living-working-ai.pdf). No AI account is needed. This first full edition is available for learning and feedback; learner effectiveness has not yet been tested.
+
+## More courses
 
 All ten courses below are published, with lessons, curriculum, glossary, source notes and developer guidance. Availability means published content, not proof of measured learning effectiveness or a professional qualification.
 
